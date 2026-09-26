@@ -30,6 +30,7 @@ body {
   box-shadow: 0 2px 8px rgba(26, 48, 74, .18);
 }
 .menu-button { display: none; }
+.brand-home { display: flex; align-items: center; gap: 12px; color: inherit; text-decoration: none; }
 .brand-mark {
   display: grid;
   place-items: center;
