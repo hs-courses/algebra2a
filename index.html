@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Algebra 2 A Reference Guide</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=20260926-3">
   </head>
   <body>
     <header class="topbar">
@@ -44,6 +44,7 @@
             <a class="print-button" id="printButton" target="_blank" rel="noopener">Open / Print PDF ↗</a>
           </div>
           <div class="document-tabs" id="documentTabs" role="tablist"></div>
+          <section class="interactive-view" id="interactiveView" hidden aria-live="polite"></section>
           <div class="viewer-frame">
             <iframe id="pdfViewer" title="PDF viewer"></iframe>
           </div>
@@ -51,6 +52,7 @@
       </main>
     </div>
 
-    <script src="app.js"></script>
+    <script src="vendor/math.js?v=20260926-3"></script>
+    <script src="app.js?v=20260926-3"></script>
   </body>
 </html>

@@ -1,4 +1,4 @@
-const state = { chapters: [], selectedSection: null, selectedDocument: null };
+const state = { chapters: [], problemBanks: {}, selectedSection: null, selectedDocument: null, interactiveIndex: 0 };
 
 const catalogEl = document.querySelector('#catalog');
 const searchEl = document.querySelector('#search');
@@ -10,10 +10,64 @@ const crumbsEl = document.querySelector('#crumbs');
 const tabsEl = document.querySelector('#documentTabs');
 const viewerEl = document.querySelector('#pdfViewer');
 const printEl = document.querySelector('#printButton');
+const interactiveEl = document.querySelector('#interactiveView');
+const viewerFrameEl = document.querySelector('.viewer-frame');
 const appShellEl = document.querySelector('.app-shell');
 const sidebarEl = document.querySelector('#sidebar');
 const resizeHandleEl = document.querySelector('#resizeHandle');
 const SIDEBAR_WIDTH_KEY = 'algebra2a-sidebar-width';
+
+function interactiveProblemsFor(section) {
+  const bank = state.problemBanks[section.id];
+  return bank?.problemTypes.flatMap(type => type.examples.map(example => ({ ...example, typeTitle: type.title, recognize: type.recognize, rules: type.rules, inputHint: type.inputHint }))) || [];
+}
+
+function hasInteractive(section) { return interactiveProblemsFor(section).length > 0; }
+function normaliseAnswer(value) {
+  return value.toLowerCase().replaceAll(' ', '').replaceAll('\\', '').replaceAll('{', '').replaceAll('}', '').replaceAll('(', '').replaceAll(')', '*').replaceAll('√', 'sqrt');
+}
+
+function escapeHtml(value) {
+  return String(value).replace(/[&<>"']/g, character => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[character]));
+}
+
+function toMathExpression(value) {
+  return value
+    .replaceAll('√', 'sqrt')
+    .replace(/sqrt\s*(\d+(?:\.\d+)?)/gi, 'sqrt($1)')
+    .replace(/(\d|\))(?=sqrt)/gi, '$1*sqrt')
+    .replace(/(\d|\))(?=\()/g, '$1*');
+}
+
+function mathematicallyEquivalent(left, right) {
+  try {
+    return math.symbolicEqual(toMathExpression(left), toMathExpression(right));
+  } catch {
+    return false;
+  }
+}
+
+function insertMathToken(input, token, cursorOffset = token.length) {
+  const start = input.selectionStart ?? input.value.length;
+  const end = input.selectionEnd ?? start;
+  input.value = `${input.value.slice(0, start)}${token}${input.value.slice(end)}`;
+  const cursor = start + cursorOffset;
+  input.focus();
+  input.setSelectionRange(cursor, cursor);
+}
+
+function deleteMathToken(input) {
+  const start = input.selectionStart ?? input.value.length;
+  const end = input.selectionEnd ?? start;
+  if (start !== end) {
+    input.value = `${input.value.slice(0, start)}${input.value.slice(end)}`;
+    input.setSelectionRange(start, start);
+  } else if (start > 0) {
+    input.value = `${input.value.slice(0, start - 1)}${input.value.slice(start)}`;
+    input.setSelectionRange(start - 1, start - 1);
+  }
+  input.focus();
+}
 
 function setSidebarWidth(width, persist = true) {
   const bounded = Math.max(230, Math.min(520, width));
@@ -67,11 +121,11 @@ function renderCatalog(filter = '') {
     const list = document.createElement('div');
     list.className = 'section-list';
     for (const section of matching) {
-      const sectionButton = document.createElement('button');
+      const sectionButton = document.createElement('a');
       sectionButton.className = 'section-button';
       sectionButton.dataset.section = sectionKey(section);
+      sectionButton.href = `#${section.id}/chapter`;
       sectionButton.textContent = section.title;
-      sectionButton.addEventListener('click', () => selectSection(chapter, section));
       list.appendChild(sectionButton);
     }
     button.addEventListener('click', () => {
@@ -90,13 +144,14 @@ function markActive() {
   });
 }
 
-function selectSection(chapter, section, documentKind = 'chapter') {
+function selectSection(chapter, section, documentKind = 'chapter', addHistory = true) {
   state.selectedSection = section;
-  state.selectedDocument = section.documents.find(doc => doc.kind === documentKind) || section.documents[0];
+  const interactive = documentKind === 'interactive' && hasInteractive(section);
+  state.selectedDocument = interactive ? null : (section.documents.find(doc => doc.kind === documentKind) || section.documents[0]);
   emptyStateEl.hidden = true;
   documentViewEl.hidden = false;
   sectionTitleEl.textContent = section.title;
-  sectionMetaEl.textContent = `${chapter.title} · ${state.selectedDocument.label}`;
+  sectionMetaEl.textContent = interactive ? `${chapter.title} · Interactive Practice` : `${chapter.title} · ${state.selectedDocument.label}`;
   crumbsEl.textContent = `${chapter.title}  /  ${section.title}`;
   tabsEl.innerHTML = '';
   for (const doc of section.documents) {
@@ -104,18 +159,149 @@ function selectSection(chapter, section, documentKind = 'chapter') {
     tab.className = 'doc-tab';
     tab.setAttribute('role', 'tab');
     tab.textContent = doc.label;
-    tab.classList.toggle('active', doc.kind === state.selectedDocument.kind);
+    tab.classList.toggle('active', !interactive && doc.kind === state.selectedDocument.kind);
     tab.addEventListener('click', () => selectDocument(chapter, section, doc));
     tabsEl.appendChild(tab);
   }
-  selectDocument(chapter, section, state.selectedDocument, false);
+  if (hasInteractive(section)) {
+    const tab = document.createElement('button');
+    tab.className = 'doc-tab interactive-tab';
+    tab.setAttribute('role', 'tab');
+    tab.textContent = 'Interactive';
+    tab.classList.toggle('active', interactive);
+    tab.addEventListener('click', () => selectInteractive(chapter, section));
+    tabsEl.appendChild(tab);
+  }
+  if (interactive) selectInteractive(chapter, section, false);
+  else selectDocument(chapter, section, state.selectedDocument, false);
   markActive();
-  history.replaceState(null, '', `#${section.id}/${state.selectedDocument.kind}`);
+  if (addHistory) history.pushState(null, '', `#${section.id}/${interactive ? 'interactive' : state.selectedDocument.kind}`);
   document.querySelector('.sidebar')?.classList.remove('open');
+}
+
+function selectInteractive(chapter, section, updateHash = true) {
+  state.selectedDocument = null;
+  state.interactiveIndex = 0;
+  sectionMetaEl.textContent = `${chapter.title} · Interactive Practice`;
+  viewerFrameEl.hidden = true;
+  printEl.hidden = true;
+  interactiveEl.hidden = false;
+  document.querySelectorAll('.doc-tab').forEach(tab => tab.classList.toggle('active', tab.textContent === 'Interactive'));
+  renderInteractive(section);
+  if (updateHash) history.replaceState(null, '', `#${section.id}/interactive`);
+}
+
+function renderInteractive(section) {
+  const problems = interactiveProblemsFor(section);
+  const problem = problems[state.interactiveIndex % problems.length];
+  interactiveEl.innerHTML = `
+    <div class="practice-card">
+      <div class="practice-kicker">Interactive practice · ${state.interactiveIndex + 1} of ${problems.length} · ${escapeHtml(problem.typeTitle || 'Practice')}</div>
+      <h2>${escapeHtml(problem.prompt)}</h2>
+      <details class="practice-guide"><summary>How to recognize and solve this type</summary><p>${escapeHtml(problem.recognize || '')}</p><ul>${(problem.rules || []).map(rule => `<li>${escapeHtml(rule)}</li>`).join('')}</ul></details>
+      <p class="practice-instruction">${escapeHtml(problem.inputHint || 'Use the math keypad or keyboard to enter your answer.')}</p>
+      <form class="answer-form" id="answerForm">
+        <label for="answerInput">Your answer</label>
+        <div class="answer-row"><input id="answerInput" autocomplete="off" spellcheck="false" aria-describedby="answerFeedback"><button type="submit">Check</button></div>
+        <div class="editing-actions"><button type="button" data-action="backspace" aria-label="Delete previous character">⌫ Backspace</button><button type="button" data-action="clear">Clear</button></div>
+        <div class="number-palette" aria-label="Numbers">
+          ${['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '.', '-'].map(token => `<button type="button" data-token="${token}">${token === '-' ? '−' : token}</button>`).join('')}
+        </div>
+        <div class="math-palette" aria-label="Math symbols and operations">
+          <button type="button" data-token="+">+</button>
+          <button type="button" data-token="-">−</button>
+          <button type="button" data-token="/">÷</button>
+          <button type="button" data-token="*">×</button>
+          <button type="button" data-token="√">√</button>
+          <button type="button" data-token="sqrt()" data-cursor="5">sqrt( )</button>
+          <button type="button" data-token="^()" data-cursor="2">xⁿ</button>
+          <button type="button" data-token="(">(</button>
+          <button type="button" data-token=")">)</button>
+          <button type="button" data-token="[">[</button>
+          <button type="button" data-token="]">]</button>
+          <button type="button" data-token="|">|</button>
+          <button type="button" data-token="()/()" data-cursor="1">a/b</button>
+          <button type="button" data-token="π">π</button>
+        </div>
+      </form>
+      <div class="practice-actions"><button class="text-button" id="hintButton" type="button">Show hint</button><button class="text-button" id="solutionButton" type="button">Show solution</button><button class="text-button" id="restartButton" type="button">Restart practice</button><button class="next-button" id="nextButton" type="button" hidden>Next problem →</button></div>
+      <div class="answer-feedback" id="answerFeedback" role="status"></div>
+      <div class="calculator-wrap"><button class="calculator-toggle" id="calculatorToggle" type="button" aria-expanded="false">Calculator</button>
+        <div class="calculator" id="calculator" hidden>
+          <input class="calculator-display" id="calculatorDisplay" value="0" readonly aria-label="Calculator display">
+          <div class="calculator-grid">
+            <button type="button" data-calc="clear">C</button><button type="button" data-calc="backspace">⌫</button><button type="button" data-calc="operator">÷</button><button type="button" data-calc="operator">×</button>
+            <button type="button" data-calc="digit">7</button><button type="button" data-calc="digit">8</button><button type="button" data-calc="digit">9</button><button type="button" data-calc="operator">−</button>
+            <button type="button" data-calc="digit">4</button><button type="button" data-calc="digit">5</button><button type="button" data-calc="digit">6</button><button type="button" data-calc="operator">+</button>
+            <button type="button" data-calc="digit">1</button><button type="button" data-calc="digit">2</button><button type="button" data-calc="digit">3</button><button class="calculator-equals" type="button" data-calc="equals">=</button>
+            <button class="calculator-zero" type="button" data-calc="digit">0</button><button type="button" data-calc="decimal">.</button>
+          </div>
+        </div>
+      </div>
+    </div>`;
+  const form = interactiveEl.querySelector('#answerForm');
+  const answerInput = interactiveEl.querySelector('#answerInput');
+  const feedback = interactiveEl.querySelector('#answerFeedback');
+  interactiveEl.querySelectorAll('[data-token]').forEach(button => button.addEventListener('click', () => {
+    insertMathToken(answerInput, button.dataset.token, Number(button.dataset.cursor) || button.dataset.token.length);
+  }));
+  interactiveEl.querySelector('[data-action="backspace"]').addEventListener('click', () => deleteMathToken(answerInput));
+  interactiveEl.querySelector('[data-action="clear"]').addEventListener('click', () => { answerInput.value = ''; answerInput.focus(); });
+  form.addEventListener('submit', event => {
+    event.preventDefault();
+    const answer = normaliseAnswer(answerInput.value);
+    const correct = problem.answers.map(normaliseAnswer).includes(answer);
+    const equivalent = problem.equivalentAnswers?.map(normaliseAnswer).includes(answer)
+      || problem.answers.some(expected => mathematicallyEquivalent(answerInput.value, expected));
+    feedback.className = `answer-feedback ${correct ? 'correct' : equivalent ? 'almost' : 'incorrect'}`;
+    feedback.textContent = correct ? 'Correct! Nice work.' : equivalent ? (problem.equivalentMessage || 'Equivalent, but not in the expected simplified form.') : 'Not quite. Check your work and try again.';
+    if (correct) interactiveEl.querySelector('#nextButton').hidden = false;
+  });
+  interactiveEl.querySelector('#hintButton').addEventListener('click', () => { feedback.className = 'answer-feedback hint'; feedback.textContent = `Hint: ${problem.hint}`; });
+  interactiveEl.querySelector('#solutionButton').addEventListener('click', () => { feedback.className = 'answer-feedback solution'; feedback.textContent = `Solution: ${problem.solution}`; });
+  interactiveEl.querySelector('#restartButton').addEventListener('click', () => { state.interactiveIndex = 0; renderInteractive(section); });
+  interactiveEl.querySelector('#nextButton').addEventListener('click', () => { state.interactiveIndex = (state.interactiveIndex + 1) % problems.length; renderInteractive(section); });
+  initCalculator(interactiveEl);
+  answerInput.focus();
+}
+
+function initCalculator(container) {
+  const toggle = container.querySelector('#calculatorToggle');
+  const calculator = container.querySelector('#calculator');
+  const display = container.querySelector('#calculatorDisplay');
+  let expression = '';
+  toggle.addEventListener('click', () => {
+    calculator.hidden = !calculator.hidden;
+    toggle.setAttribute('aria-expanded', String(!calculator.hidden));
+  });
+  const update = value => { expression = value; display.value = value || '0'; };
+  container.querySelectorAll('[data-calc]').forEach(button => button.addEventListener('click', () => {
+    const action = button.dataset.calc;
+    const value = button.textContent;
+    if (action === 'clear') return update('');
+    if (action === 'backspace') return update(expression.slice(0, -1));
+    if (action === 'digit' || action === 'decimal') return update(`${expression}${value}`);
+    if (action === 'operator') {
+      const operator = value === '×' ? '*' : value === '÷' ? '/' : value === '−' ? '-' : value;
+      if (!expression && operator !== '-') return;
+      if (/[+*/-]$/.test(expression)) return update(`${expression.slice(0, -1)}${operator}`);
+      return update(`${expression}${operator}`);
+    }
+    if (action === 'equals') {
+      if (!/^[0-9+*/.()\- ]+$/.test(expression)) return;
+      try {
+        const result = Function(`"use strict"; return (${expression})`)();
+        if (Number.isFinite(result)) update(String(Math.round(result * 1e10) / 1e10));
+      } catch { update(expression); }
+    }
+  }));
 }
 
 function selectDocument(chapter, section, document, updateHash = true) {
   state.selectedDocument = document;
+  interactiveEl.hidden = true;
+  viewerFrameEl.hidden = false;
+  printEl.hidden = false;
   viewerEl.src = document.url;
   printEl.href = document.url;
   sectionMetaEl.textContent = `${chapter.title} · ${document.label}`;
@@ -127,15 +313,16 @@ function restoreHash() {
   const [sectionId, kind] = location.hash.slice(1).split('/');
   for (const chapter of state.chapters) {
     const section = chapter.sections.find(item => item.id === sectionId);
-    if (section) { selectSection(chapter, section, kind || 'chapter'); return true; }
+    if (section) { selectSection(chapter, section, kind || 'chapter', false); return true; }
   }
   return false;
 }
 
 async function init() {
   initSplitter();
-  const response = await fetch('catalog.json');
-  state.chapters = (await response.json()).chapters;
+  const [catalogResponse, bankResponse] = await Promise.all([fetch('catalog.json'), fetch('problem-bank.json')]);
+  state.chapters = (await catalogResponse.json()).chapters;
+  state.problemBanks = await bankResponse.json();
   renderCatalog();
   restoreHash();
 }
@@ -143,6 +330,7 @@ async function init() {
 searchEl.addEventListener('input', event => renderCatalog(event.target.value));
 document.querySelector('#menuButton').addEventListener('click', () => document.querySelector('.sidebar').classList.toggle('open'));
 window.addEventListener('hashchange', restoreHash);
+window.addEventListener('popstate', restoreHash);
 init().catch(error => {
   emptyStateEl.hidden = false;
   emptyStateEl.querySelector('p').textContent = `Could not load the catalog: ${error.message}`;
