@@ -1,0 +1,2948 @@
+{
+  "chapters": [
+    {
+      "id": "01",
+      "title": "01 Probability Distributions",
+      "sections": [
+        {
+          "id": "01.01",
+          "title": "01.01 Creating Probability Distributions",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/01%20Probability%20Distributions/01.01%20Creating%20Probability%20Distributions/01.01%20Creating%20Probability%20Distributions.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/01%20Probability%20Distributions/01.01%20Creating%20Probability%20Distributions/01.01%20Creating%20Probability%20Distributions%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/01%20Probability%20Distributions/01.01%20Creating%20Probability%20Distributions/01.01%20Creating%20Probability%20Distributions%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/01%20Probability%20Distributions/01.01%20Creating%20Probability%20Distributions/01.01%20Creating%20Probability%20Distributions%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "01.02",
+          "title": "01.02 Interpreting Probability Distributions",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/01%20Probability%20Distributions/01.02%20Interpreting%20Probability%20Distributions/01.02%20Interpreting%20Probability%20Distributions.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/01%20Probability%20Distributions/01.02%20Interpreting%20Probability%20Distributions/01.02%20Interpreting%20Probability%20Distributions%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/01%20Probability%20Distributions/01.02%20Interpreting%20Probability%20Distributions/01.02%20Interpreting%20Probability%20Distributions%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/01%20Probability%20Distributions/01.02%20Interpreting%20Probability%20Distributions/01.02%20Interpreting%20Probability%20Distributions%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "01.03",
+          "title": "01.03 Binomial Distributions",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/01%20Probability%20Distributions/01.03%20Binomial%20Distributions/01.03%20Binomial%20Distributions.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/01%20Probability%20Distributions/01.03%20Binomial%20Distributions/01.03%20Binomial%20Distributions%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/01%20Probability%20Distributions/01.03%20Binomial%20Distributions/01.03%20Binomial%20Distributions%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/01%20Probability%20Distributions/01.03%20Binomial%20Distributions/01.03%20Binomial%20Distributions%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "01.04",
+          "title": "01.04 Continuous Random Variables",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/01%20Probability%20Distributions/01.04%20Continuous%20Random%20Variables/01.04%20Continuous%20Random%20Variables.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/01%20Probability%20Distributions/01.04%20Continuous%20Random%20Variables/01.04%20Continuous%20Random%20Variables%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/01%20Probability%20Distributions/01.04%20Continuous%20Random%20Variables/01.04%20Continuous%20Random%20Variables%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/01%20Probability%20Distributions/01.04%20Continuous%20Random%20Variables/01.04%20Continuous%20Random%20Variables%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "01.05",
+          "title": "01.05 The Normal Distribution",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/01%20Probability%20Distributions/01.05%20The%20Normal%20Distribution/01.05%20The%20Normal%20Distribution.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/01%20Probability%20Distributions/01.05%20The%20Normal%20Distribution/01.05%20The%20Normal%20Distribution%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/01%20Probability%20Distributions/01.05%20The%20Normal%20Distribution/01.05%20The%20Normal%20Distribution%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/01%20Probability%20Distributions/01.05%20The%20Normal%20Distribution/01.05%20The%20Normal%20Distribution%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "01.06",
+          "title": "01.06 What Data Are Normal?",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/01%20Probability%20Distributions/01.06%20What%20Data%20Are%20Normal%3F/01.06%20What%20Data%20Are%20Normal%3F.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/01%20Probability%20Distributions/01.06%20What%20Data%20Are%20Normal%3F/01.06%20What%20Data%20Are%20Normal%3F%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/01%20Probability%20Distributions/01.06%20What%20Data%20Are%20Normal%3F/01.06%20What%20Data%20Are%20Normal%3F%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/01%20Probability%20Distributions/01.06%20What%20Data%20Are%20Normal%3F/01.06%20What%20Data%20Are%20Normal%3F%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "01.07",
+          "title": "01.07 Standardizing Data",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/01%20Probability%20Distributions/01.07%20Standardizing%20Data/01.07%20Standardizing%20Data.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/01%20Probability%20Distributions/01.07%20Standardizing%20Data/01.07%20Standardizing%20Data%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/01%20Probability%20Distributions/01.07%20Standardizing%20Data/01.07%20Standardizing%20Data%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/01%20Probability%20Distributions/01.07%20Standardizing%20Data/01.07%20Standardizing%20Data%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "01.08",
+          "title": "01.08 Comparing Scores",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/01%20Probability%20Distributions/01.08%20Comparing%20Scores/01.08%20Comparing%20Scores.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/01%20Probability%20Distributions/01.08%20Comparing%20Scores/01.08%20Comparing%20Scores%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/01%20Probability%20Distributions/01.08%20Comparing%20Scores/01.08%20Comparing%20Scores%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/01%20Probability%20Distributions/01.08%20Comparing%20Scores/01.08%20Comparing%20Scores%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "01.09",
+          "title": "01.09 The Standard Normal Curve",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/01%20Probability%20Distributions/01.09%20The%20Standard%20Normal%20Curve/01.09%20The%20Standard%20Normal%20Curve.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/01%20Probability%20Distributions/01.09%20The%20Standard%20Normal%20Curve/01.09%20The%20Standard%20Normal%20Curve%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/01%20Probability%20Distributions/01.09%20The%20Standard%20Normal%20Curve/01.09%20The%20Standard%20Normal%20Curve%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/01%20Probability%20Distributions/01.09%20The%20Standard%20Normal%20Curve/01.09%20The%20Standard%20Normal%20Curve%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "01.10",
+          "title": "01.10 Finding Standard Scores",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/01%20Probability%20Distributions/01.10%20Finding%20Standard%20Scores/01.10%20Finding%20Standard%20Scores.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/01%20Probability%20Distributions/01.10%20Finding%20Standard%20Scores/01.10%20Finding%20Standard%20Scores%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/01%20Probability%20Distributions/01.10%20Finding%20Standard%20Scores/01.10%20Finding%20Standard%20Scores%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/01%20Probability%20Distributions/01.10%20Finding%20Standard%20Scores/01.10%20Finding%20Standard%20Scores%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "02 Data Gathering and Analysis",
+      "sections": [
+        {
+          "id": "02.01",
+          "title": "02.01 Sample and Population",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/02%20Data%20Gathering%20and%20Analysis/02.01%20Sample%20and%20Population/02.01%20Sample%20and%20Population.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/02%20Data%20Gathering%20and%20Analysis/02.01%20Sample%20and%20Population/02.01%20Sample%20and%20Population%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/02%20Data%20Gathering%20and%20Analysis/02.01%20Sample%20and%20Population/02.01%20Sample%20and%20Population%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/02%20Data%20Gathering%20and%20Analysis/02.01%20Sample%20and%20Population/02.01%20Sample%20and%20Population%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "02.02",
+          "title": "02.02 Statistics and Parameters",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/02%20Data%20Gathering%20and%20Analysis/02.02%20Statistics%20and%20Parameters/02.02%20Statistics%20and%20Parameters.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/02%20Data%20Gathering%20and%20Analysis/02.02%20Statistics%20and%20Parameters/02.02%20Statistics%20and%20Parameters%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/02%20Data%20Gathering%20and%20Analysis/02.02%20Statistics%20and%20Parameters/02.02%20Statistics%20and%20Parameters%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/02%20Data%20Gathering%20and%20Analysis/02.02%20Statistics%20and%20Parameters/02.02%20Statistics%20and%20Parameters%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "02.03",
+          "title": "02.03 Interval Estimates",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/02%20Data%20Gathering%20and%20Analysis/02.03%20Interval%20Estimates/02.03%20Interval%20Estimates.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/02%20Data%20Gathering%20and%20Analysis/02.03%20Interval%20Estimates/02.03%20Interval%20Estimates%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/02%20Data%20Gathering%20and%20Analysis/02.03%20Interval%20Estimates/02.03%20Interval%20Estimates%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/02%20Data%20Gathering%20and%20Analysis/02.03%20Interval%20Estimates/02.03%20Interval%20Estimates%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "02.04",
+          "title": "02.04 Using Simulations",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/02%20Data%20Gathering%20and%20Analysis/02.04%20Using%20Simulations/02.04%20Using%20Simulations.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/02%20Data%20Gathering%20and%20Analysis/02.04%20Using%20Simulations/02.04%20Using%20Simulations%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/02%20Data%20Gathering%20and%20Analysis/02.04%20Using%20Simulations/02.04%20Using%20Simulations%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/02%20Data%20Gathering%20and%20Analysis/02.04%20Using%20Simulations/02.04%20Using%20Simulations%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "02.05",
+          "title": "02.05 Evaluating Reports",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/02%20Data%20Gathering%20and%20Analysis/02.05%20Evaluating%20Reports/02.05%20Evaluating%20Reports.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/02%20Data%20Gathering%20and%20Analysis/02.05%20Evaluating%20Reports/02.05%20Evaluating%20Reports%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/02%20Data%20Gathering%20and%20Analysis/02.05%20Evaluating%20Reports/02.05%20Evaluating%20Reports%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/02%20Data%20Gathering%20and%20Analysis/02.05%20Evaluating%20Reports/02.05%20Evaluating%20Reports%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "02.06",
+          "title": "02.06 Surveys, Experiments, and Observational Studies",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/02%20Data%20Gathering%20and%20Analysis/02.06%20Surveys%2C%20Experiments%2C%20and%20Observational%20Studies/02.06%20Surveys%2C%20Experiments%2C%20and%20Observational%20Studies.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/02%20Data%20Gathering%20and%20Analysis/02.06%20Surveys%2C%20Experiments%2C%20and%20Observational%20Studies/02.06%20Surveys%2C%20Experiments%2C%20and%20Observational%20Studies%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/02%20Data%20Gathering%20and%20Analysis/02.06%20Surveys%2C%20Experiments%2C%20and%20Observational%20Studies/02.06%20Surveys%2C%20Experiments%2C%20and%20Observational%20Studies%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/02%20Data%20Gathering%20and%20Analysis/02.06%20Surveys%2C%20Experiments%2C%20and%20Observational%20Studies/02.06%20Surveys%2C%20Experiments%2C%20and%20Observational%20Studies%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "03 Systems of Linear Equations and Inequalities",
+      "sections": [
+        {
+          "id": "03.01",
+          "title": "03.01 Systems of Linear Equations",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/03%20Systems%20of%20Linear%20Equations%20and%20Inequalities/03.01%20Systems%20of%20Linear%20Equations/03.01%20Systems%20of%20Linear%20Equations.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/03%20Systems%20of%20Linear%20Equations%20and%20Inequalities/03.01%20Systems%20of%20Linear%20Equations/03.01%20Systems%20of%20Linear%20Equations%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/03%20Systems%20of%20Linear%20Equations%20and%20Inequalities/03.01%20Systems%20of%20Linear%20Equations/03.01%20Systems%20of%20Linear%20Equations%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/03%20Systems%20of%20Linear%20Equations%20and%20Inequalities/03.01%20Systems%20of%20Linear%20Equations/03.01%20Systems%20of%20Linear%20Equations%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "03.02",
+          "title": "03.02 Inequalities in One Variable",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/03%20Systems%20of%20Linear%20Equations%20and%20Inequalities/03.02%20Inequalities%20in%20One%20Variable/03.02%20Inequalities%20in%20One%20Variable.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/03%20Systems%20of%20Linear%20Equations%20and%20Inequalities/03.02%20Inequalities%20in%20One%20Variable/03.02%20Inequalities%20in%20One%20Variable%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/03%20Systems%20of%20Linear%20Equations%20and%20Inequalities/03.02%20Inequalities%20in%20One%20Variable/03.02%20Inequalities%20in%20One%20Variable%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/03%20Systems%20of%20Linear%20Equations%20and%20Inequalities/03.02%20Inequalities%20in%20One%20Variable/03.02%20Inequalities%20in%20One%20Variable%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "03.03",
+          "title": "03.03 Compound Inequalities",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/03%20Systems%20of%20Linear%20Equations%20and%20Inequalities/03.03%20Compound%20Inequalities/03.03%20Compound%20Inequalities.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/03%20Systems%20of%20Linear%20Equations%20and%20Inequalities/03.03%20Compound%20Inequalities/03.03%20Compound%20Inequalities%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/03%20Systems%20of%20Linear%20Equations%20and%20Inequalities/03.03%20Compound%20Inequalities/03.03%20Compound%20Inequalities%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/03%20Systems%20of%20Linear%20Equations%20and%20Inequalities/03.03%20Compound%20Inequalities/03.03%20Compound%20Inequalities%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "03.04",
+          "title": "03.04 Inequalities in Two Variables",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/03%20Systems%20of%20Linear%20Equations%20and%20Inequalities/03.04%20Inequalities%20in%20Two%20Variables/03.04%20Inequalities%20in%20Two%20Variables.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/03%20Systems%20of%20Linear%20Equations%20and%20Inequalities/03.04%20Inequalities%20in%20Two%20Variables/03.04%20Inequalities%20in%20Two%20Variables%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/03%20Systems%20of%20Linear%20Equations%20and%20Inequalities/03.04%20Inequalities%20in%20Two%20Variables/03.04%20Inequalities%20in%20Two%20Variables%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/03%20Systems%20of%20Linear%20Equations%20and%20Inequalities/03.04%20Inequalities%20in%20Two%20Variables/03.04%20Inequalities%20in%20Two%20Variables%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "03.05",
+          "title": "03.05 Systems of Linear Inequalities",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/03%20Systems%20of%20Linear%20Equations%20and%20Inequalities/03.05%20Systems%20of%20Linear%20Inequalities/03.05%20Systems%20of%20Linear%20Inequalities.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/03%20Systems%20of%20Linear%20Equations%20and%20Inequalities/03.05%20Systems%20of%20Linear%20Inequalities/03.05%20Systems%20of%20Linear%20Inequalities%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/03%20Systems%20of%20Linear%20Equations%20and%20Inequalities/03.05%20Systems%20of%20Linear%20Inequalities/03.05%20Systems%20of%20Linear%20Inequalities%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/03%20Systems%20of%20Linear%20Equations%20and%20Inequalities/03.05%20Systems%20of%20Linear%20Inequalities/03.05%20Systems%20of%20Linear%20Inequalities%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "03.06",
+          "title": "03.06 Linear Programming",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/03%20Systems%20of%20Linear%20Equations%20and%20Inequalities/03.06%20Linear%20Programming/03.06%20Linear%20Programming.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/03%20Systems%20of%20Linear%20Equations%20and%20Inequalities/03.06%20Linear%20Programming/03.06%20Linear%20Programming%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/03%20Systems%20of%20Linear%20Equations%20and%20Inequalities/03.06%20Linear%20Programming/03.06%20Linear%20Programming%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/03%20Systems%20of%20Linear%20Equations%20and%20Inequalities/03.06%20Linear%20Programming/03.06%20Linear%20Programming%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "03.07",
+          "title": "03.07 More Linear Programming",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/03%20Systems%20of%20Linear%20Equations%20and%20Inequalities/03.07%20More%20Linear%20Programming/03.07%20More%20Linear%20Programming.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/03%20Systems%20of%20Linear%20Equations%20and%20Inequalities/03.07%20More%20Linear%20Programming/03.07%20More%20Linear%20Programming%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/03%20Systems%20of%20Linear%20Equations%20and%20Inequalities/03.07%20More%20Linear%20Programming/03.07%20More%20Linear%20Programming%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/03%20Systems%20of%20Linear%20Equations%20and%20Inequalities/03.07%20More%20Linear%20Programming/03.07%20More%20Linear%20Programming%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "03.08",
+          "title": "03.08 Applications of Linear Programming",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/03%20Systems%20of%20Linear%20Equations%20and%20Inequalities/03.08%20Applications%20of%20Linear%20Programming/03.08%20Applications%20of%20Linear%20Programming.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/03%20Systems%20of%20Linear%20Equations%20and%20Inequalities/03.08%20Applications%20of%20Linear%20Programming/03.08%20Applications%20of%20Linear%20Programming%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/03%20Systems%20of%20Linear%20Equations%20and%20Inequalities/03.08%20Applications%20of%20Linear%20Programming/03.08%20Applications%20of%20Linear%20Programming%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/03%20Systems%20of%20Linear%20Equations%20and%20Inequalities/03.08%20Applications%20of%20Linear%20Programming/03.08%20Applications%20of%20Linear%20Programming%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "03.09",
+          "title": "03.09 Domain in Linear Programming",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/03%20Systems%20of%20Linear%20Equations%20and%20Inequalities/03.09%20Domain%20in%20Linear%20Programming/03.09%20Domain%20in%20Linear%20Programming.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/03%20Systems%20of%20Linear%20Equations%20and%20Inequalities/03.09%20Domain%20in%20Linear%20Programming/03.09%20Domain%20in%20Linear%20Programming%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/03%20Systems%20of%20Linear%20Equations%20and%20Inequalities/03.09%20Domain%20in%20Linear%20Programming/03.09%20Domain%20in%20Linear%20Programming%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/03%20Systems%20of%20Linear%20Equations%20and%20Inequalities/03.09%20Domain%20in%20Linear%20Programming/03.09%20Domain%20in%20Linear%20Programming%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "04 Radicals and Complex Numbers",
+      "sections": [
+        {
+          "id": "04.01",
+          "title": "04.01 Radical Expressions",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/04%20Radicals%20and%20Complex%20Numbers/04.01%20Radical%20Expressions/04.01%20Radical%20Expressions.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/04%20Radicals%20and%20Complex%20Numbers/04.01%20Radical%20Expressions/04.01%20Radical%20Expressions%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/04%20Radicals%20and%20Complex%20Numbers/04.01%20Radical%20Expressions/04.01%20Radical%20Expressions%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/04%20Radicals%20and%20Complex%20Numbers/04.01%20Radical%20Expressions/04.01%20Radical%20Expressions%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "04.02",
+          "title": "04.02 Fractional Exponents",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/04%20Radicals%20and%20Complex%20Numbers/04.02%20Fractional%20Exponents/04.02%20Fractional%20Exponents.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/04%20Radicals%20and%20Complex%20Numbers/04.02%20Fractional%20Exponents/04.02%20Fractional%20Exponents%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/04%20Radicals%20and%20Complex%20Numbers/04.02%20Fractional%20Exponents/04.02%20Fractional%20Exponents%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/04%20Radicals%20and%20Complex%20Numbers/04.02%20Fractional%20Exponents/04.02%20Fractional%20Exponents%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "04.03",
+          "title": "04.03 Applying Roots and Powers",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/04%20Radicals%20and%20Complex%20Numbers/04.03%20Applying%20Roots%20and%20Powers/04.03%20Applying%20Roots%20and%20Powers.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/04%20Radicals%20and%20Complex%20Numbers/04.03%20Applying%20Roots%20and%20Powers/04.03%20Applying%20Roots%20and%20Powers%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/04%20Radicals%20and%20Complex%20Numbers/04.03%20Applying%20Roots%20and%20Powers/04.03%20Applying%20Roots%20and%20Powers%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/04%20Radicals%20and%20Complex%20Numbers/04.03%20Applying%20Roots%20and%20Powers/04.03%20Applying%20Roots%20and%20Powers%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "04.04",
+          "title": "04.04 Operations with Complex Numbers",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/04%20Radicals%20and%20Complex%20Numbers/04.04%20Operations%20with%20Complex%20Numbers/04.04%20Operations%20with%20Complex%20Numbers.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/04%20Radicals%20and%20Complex%20Numbers/04.04%20Operations%20with%20Complex%20Numbers/04.04%20Operations%20with%20Complex%20Numbers%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/04%20Radicals%20and%20Complex%20Numbers/04.04%20Operations%20with%20Complex%20Numbers/04.04%20Operations%20with%20Complex%20Numbers%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/04%20Radicals%20and%20Complex%20Numbers/04.04%20Operations%20with%20Complex%20Numbers/04.04%20Operations%20with%20Complex%20Numbers%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "04.05",
+          "title": "04.05 Solving Radical Equations",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/04%20Radicals%20and%20Complex%20Numbers/04.05%20Solving%20Radical%20Equations/04.05%20Solving%20Radical%20Equations.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/04%20Radicals%20and%20Complex%20Numbers/04.05%20Solving%20Radical%20Equations/04.05%20Solving%20Radical%20Equations%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/04%20Radicals%20and%20Complex%20Numbers/04.05%20Solving%20Radical%20Equations/04.05%20Solving%20Radical%20Equations%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/04%20Radicals%20and%20Complex%20Numbers/04.05%20Solving%20Radical%20Equations/04.05%20Solving%20Radical%20Equations%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "05 Polynomials",
+      "sections": [
+        {
+          "id": "05.01",
+          "title": "05.01 Working with Polynomials",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/05%20Polynomials/05.01%20Working%20with%20Polynomials/05.01%20Working%20with%20Polynomials.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/05%20Polynomials/05.01%20Working%20with%20Polynomials/05.01%20Working%20with%20Polynomials%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/05%20Polynomials/05.01%20Working%20with%20Polynomials/05.01%20Working%20with%20Polynomials%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/05%20Polynomials/05.01%20Working%20with%20Polynomials/05.01%20Working%20with%20Polynomials%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "05.02",
+          "title": "05.02 Polynomials and Arithmetic",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/05%20Polynomials/05.02%20Polynomials%20and%20Arithmetic/05.02%20Polynomials%20and%20Arithmetic.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/05%20Polynomials/05.02%20Polynomials%20and%20Arithmetic/05.02%20Polynomials%20and%20Arithmetic%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/05%20Polynomials/05.02%20Polynomials%20and%20Arithmetic/05.02%20Polynomials%20and%20Arithmetic%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/05%20Polynomials/05.02%20Polynomials%20and%20Arithmetic/05.02%20Polynomials%20and%20Arithmetic%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "05.03",
+          "title": "05.03 Multiplying Polynomials",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/05%20Polynomials/05.03%20Multiplying%20Polynomials/05.03%20Multiplying%20Polynomials.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/05%20Polynomials/05.03%20Multiplying%20Polynomials/05.03%20Multiplying%20Polynomials%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/05%20Polynomials/05.03%20Multiplying%20Polynomials/05.03%20Multiplying%20Polynomials%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/05%20Polynomials/05.03%20Multiplying%20Polynomials/05.03%20Multiplying%20Polynomials%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "05.04",
+          "title": "05.04 Factoring Patterns",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/05%20Polynomials/05.04%20Factoring%20Patterns/05.04%20Factoring%20Patterns.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/05%20Polynomials/05.04%20Factoring%20Patterns/05.04%20Factoring%20Patterns%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/05%20Polynomials/05.04%20Factoring%20Patterns/05.04%20Factoring%20Patterns%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/05%20Polynomials/05.04%20Factoring%20Patterns/05.04%20Factoring%20Patterns%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "05.05",
+          "title": "05.05 More Factoring Patterns",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/05%20Polynomials/05.05%20More%20Factoring%20Patterns/05.05%20More%20Factoring%20Patterns.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/05%20Polynomials/05.05%20More%20Factoring%20Patterns/05.05%20More%20Factoring%20Patterns%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/05%20Polynomials/05.05%20More%20Factoring%20Patterns/05.05%20More%20Factoring%20Patterns%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/05%20Polynomials/05.05%20More%20Factoring%20Patterns/05.05%20More%20Factoring%20Patterns%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "05.06",
+          "title": "05.06 Solving Polynomial Equations",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/05%20Polynomials/05.06%20Solving%20Polynomial%20Equations/05.06%20Solving%20Polynomial%20Equations.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/05%20Polynomials/05.06%20Solving%20Polynomial%20Equations/05.06%20Solving%20Polynomial%20Equations%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/05%20Polynomials/05.06%20Solving%20Polynomial%20Equations/05.06%20Solving%20Polynomial%20Equations%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/05%20Polynomials/05.06%20Solving%20Polynomial%20Equations/05.06%20Solving%20Polynomial%20Equations%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "05.07",
+          "title": "05.07 Solving Equations with Complex Solutions",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/05%20Polynomials/05.07%20Solving%20Equations%20with%20Complex%20Solutions/05.07%20Solving%20Equations%20with%20Complex%20Solutions.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/05%20Polynomials/05.07%20Solving%20Equations%20with%20Complex%20Solutions/05.07%20Solving%20Equations%20with%20Complex%20Solutions%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/05%20Polynomials/05.07%20Solving%20Equations%20with%20Complex%20Solutions/05.07%20Solving%20Equations%20with%20Complex%20Solutions%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/05%20Polynomials/05.07%20Solving%20Equations%20with%20Complex%20Solutions/05.07%20Solving%20Equations%20with%20Complex%20Solutions%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "05.08",
+          "title": "05.08 Completing the Square",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/05%20Polynomials/05.08%20Completing%20the%20Square/05.08%20Completing%20the%20Square.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/05%20Polynomials/05.08%20Completing%20the%20Square/05.08%20Completing%20the%20Square%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/05%20Polynomials/05.08%20Completing%20the%20Square/05.08%20Completing%20the%20Square%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/05%20Polynomials/05.08%20Completing%20the%20Square/05.08%20Completing%20the%20Square%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "05.09",
+          "title": "05.09 The Quadratic Formula",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/05%20Polynomials/05.09%20The%20Quadratic%20Formula/05.09%20The%20Quadratic%20Formula.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/05%20Polynomials/05.09%20The%20Quadratic%20Formula/05.09%20The%20Quadratic%20Formula%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/05%20Polynomials/05.09%20The%20Quadratic%20Formula/05.09%20The%20Quadratic%20Formula%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/05%20Polynomials/05.09%20The%20Quadratic%20Formula/05.09%20The%20Quadratic%20Formula%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "05.10",
+          "title": "05.10 Formulas with Quadratics",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/05%20Polynomials/05.10%20Formulas%20with%20Quadratics/05.10%20Formulas%20with%20Quadratics.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/05%20Polynomials/05.10%20Formulas%20with%20Quadratics/05.10%20Formulas%20with%20Quadratics%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/05%20Polynomials/05.10%20Formulas%20with%20Quadratics/05.10%20Formulas%20with%20Quadratics%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/05%20Polynomials/05.10%20Formulas%20with%20Quadratics/05.10%20Formulas%20with%20Quadratics%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "05.11",
+          "title": "05.11 Factoring with Complex Numbers",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/05%20Polynomials/05.11%20Factoring%20with%20Complex%20Numbers/05.11%20Factoring%20with%20Complex%20Numbers.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/05%20Polynomials/05.11%20Factoring%20with%20Complex%20Numbers/05.11%20Factoring%20with%20Complex%20Numbers%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/05%20Polynomials/05.11%20Factoring%20with%20Complex%20Numbers/05.11%20Factoring%20with%20Complex%20Numbers%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/05%20Polynomials/05.11%20Factoring%20with%20Complex%20Numbers/05.11%20Factoring%20with%20Complex%20Numbers%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "06 Polynomial Functions",
+      "sections": [
+        {
+          "id": "06.01",
+          "title": "06.01 Power Functions",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/06%20Polynomial%20Functions/06.01%20Power%20Functions/06.01%20Power%20Functions.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/06%20Polynomial%20Functions/06.01%20Power%20Functions/06.01%20Power%20Functions%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/06%20Polynomial%20Functions/06.01%20Power%20Functions/06.01%20Power%20Functions%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/06%20Polynomial%20Functions/06.01%20Power%20Functions/06.01%20Power%20Functions%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "06.02",
+          "title": "06.02 Polynomial Long Division",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/06%20Polynomial%20Functions/06.02%20Polynomial%20Long%20Division/06.02%20Polynomial%20Long%20Division.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/06%20Polynomial%20Functions/06.02%20Polynomial%20Long%20Division/06.02%20Polynomial%20Long%20Division%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/06%20Polynomial%20Functions/06.02%20Polynomial%20Long%20Division/06.02%20Polynomial%20Long%20Division%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/06%20Polynomial%20Functions/06.02%20Polynomial%20Long%20Division/06.02%20Polynomial%20Long%20Division%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "06.03",
+          "title": "06.03 Synthetic Division",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/06%20Polynomial%20Functions/06.03%20Synthetic%20Division/06.03%20Synthetic%20Division.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/06%20Polynomial%20Functions/06.03%20Synthetic%20Division/06.03%20Synthetic%20Division%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/06%20Polynomial%20Functions/06.03%20Synthetic%20Division/06.03%20Synthetic%20Division%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/06%20Polynomial%20Functions/06.03%20Synthetic%20Division/06.03%20Synthetic%20Division%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "06.04",
+          "title": "06.04 The Polynomial Remainder Theorem",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/06%20Polynomial%20Functions/06.04%20The%20Polynomial%20Remainder%20Theorem/06.04%20The%20Polynomial%20Remainder%20Theorem.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/06%20Polynomial%20Functions/06.04%20The%20Polynomial%20Remainder%20Theorem/06.04%20The%20Polynomial%20Remainder%20Theorem%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/06%20Polynomial%20Functions/06.04%20The%20Polynomial%20Remainder%20Theorem/06.04%20The%20Polynomial%20Remainder%20Theorem%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/06%20Polynomial%20Functions/06.04%20The%20Polynomial%20Remainder%20Theorem/06.04%20The%20Polynomial%20Remainder%20Theorem%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "06.05",
+          "title": "06.05 Factors and Rational Roots",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/06%20Polynomial%20Functions/06.05%20Factors%20and%20Rational%20Roots/06.05%20Factors%20and%20Rational%20Roots.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/06%20Polynomial%20Functions/06.05%20Factors%20and%20Rational%20Roots/06.05%20Factors%20and%20Rational%20Roots%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/06%20Polynomial%20Functions/06.05%20Factors%20and%20Rational%20Roots/06.05%20Factors%20and%20Rational%20Roots%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/06%20Polynomial%20Functions/06.05%20Factors%20and%20Rational%20Roots/06.05%20Factors%20and%20Rational%20Roots%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "06.06",
+          "title": "06.06 Graphing Polynomials",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/06%20Polynomial%20Functions/06.06%20Graphing%20Polynomials/06.06%20Graphing%20Polynomials.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/06%20Polynomial%20Functions/06.06%20Graphing%20Polynomials/06.06%20Graphing%20Polynomials%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/06%20Polynomial%20Functions/06.06%20Graphing%20Polynomials/06.06%20Graphing%20Polynomials%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/06%20Polynomial%20Functions/06.06%20Graphing%20Polynomials/06.06%20Graphing%20Polynomials%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "06.07",
+          "title": "06.07 Factoring Polynomials Completely",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/06%20Polynomial%20Functions/06.07%20Factoring%20Polynomials%20Completely/06.07%20Factoring%20Polynomials%20Completely.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/06%20Polynomial%20Functions/06.07%20Factoring%20Polynomials%20Completely/06.07%20Factoring%20Polynomials%20Completely%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/06%20Polynomial%20Functions/06.07%20Factoring%20Polynomials%20Completely/06.07%20Factoring%20Polynomials%20Completely%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/06%20Polynomial%20Functions/06.07%20Factoring%20Polynomials%20Completely/06.07%20Factoring%20Polynomials%20Completely%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "07 Rational Expressions",
+      "sections": [
+        {
+          "id": "07.01",
+          "title": "07.01 Dividing Monomials and Polynomials",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/07%20Rational%20Expressions/07.01%20Dividing%20Monomials%20and%20Polynomials/07.01%20Dividing%20Monomials%20and%20Polynomials.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/07%20Rational%20Expressions/07.01%20Dividing%20Monomials%20and%20Polynomials/07.01%20Dividing%20Monomials%20and%20Polynomials%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/07%20Rational%20Expressions/07.01%20Dividing%20Monomials%20and%20Polynomials/07.01%20Dividing%20Monomials%20and%20Polynomials%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/07%20Rational%20Expressions/07.01%20Dividing%20Monomials%20and%20Polynomials/07.01%20Dividing%20Monomials%20and%20Polynomials%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "07.02",
+          "title": "07.02 Complex Fractions",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/07%20Rational%20Expressions/07.02%20Complex%20Fractions/07.02%20Complex%20Fractions.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/07%20Rational%20Expressions/07.02%20Complex%20Fractions/07.02%20Complex%20Fractions%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/07%20Rational%20Expressions/07.02%20Complex%20Fractions/07.02%20Complex%20Fractions%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/07%20Rational%20Expressions/07.02%20Complex%20Fractions/07.02%20Complex%20Fractions%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "07.03",
+          "title": "07.03 Adding and Subtracting Rational Expressions",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/07%20Rational%20Expressions/07.03%20Adding%20and%20Subtracting%20Rational%20Expressions/07.03%20Adding%20and%20Subtracting%20Rational%20Expressions.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/07%20Rational%20Expressions/07.03%20Adding%20and%20Subtracting%20Rational%20Expressions/07.03%20Adding%20and%20Subtracting%20Rational%20Expressions%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/07%20Rational%20Expressions/07.03%20Adding%20and%20Subtracting%20Rational%20Expressions/07.03%20Adding%20and%20Subtracting%20Rational%20Expressions%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/07%20Rational%20Expressions/07.03%20Adding%20and%20Subtracting%20Rational%20Expressions/07.03%20Adding%20and%20Subtracting%20Rational%20Expressions%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "07.04",
+          "title": "07.04 Multiplying and Dividing Rational Expressions",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/07%20Rational%20Expressions/07.04%20Multiplying%20and%20Dividing%20Rational%20Expressions/07.04%20Multiplying%20and%20Dividing%20Rational%20Expressions.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/07%20Rational%20Expressions/07.04%20Multiplying%20and%20Dividing%20Rational%20Expressions/07.04%20Multiplying%20and%20Dividing%20Rational%20Expressions%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/07%20Rational%20Expressions/07.04%20Multiplying%20and%20Dividing%20Rational%20Expressions/07.04%20Multiplying%20and%20Dividing%20Rational%20Expressions%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/07%20Rational%20Expressions/07.04%20Multiplying%20and%20Dividing%20Rational%20Expressions/07.04%20Multiplying%20and%20Dividing%20Rational%20Expressions%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "07.05",
+          "title": "07.05 Solving Rational Equations",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/07%20Rational%20Expressions/07.05%20Solving%20Rational%20Equations/07.05%20Solving%20Rational%20Equations.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/07%20Rational%20Expressions/07.05%20Solving%20Rational%20Equations/07.05%20Solving%20Rational%20Equations%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/07%20Rational%20Expressions/07.05%20Solving%20Rational%20Equations/07.05%20Solving%20Rational%20Equations%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/07%20Rational%20Expressions/07.05%20Solving%20Rational%20Equations/07.05%20Solving%20Rational%20Equations%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "08 Exponential and Logarithmic Functions",
+      "sections": [
+        {
+          "id": "08.01",
+          "title": "08.01 Modeling with Exponential Equations and Expressions",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/08%20Exponential%20and%20Logarithmic%20Functions/08.01%20Modeling%20with%20Exponential%20Equations%20and%20Expressions/08.01%20Modeling%20with%20Exponential%20Equations%20and%20Expressions.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/08%20Exponential%20and%20Logarithmic%20Functions/08.01%20Modeling%20with%20Exponential%20Equations%20and%20Expressions/08.01%20Modeling%20with%20Exponential%20Equations%20and%20Expressions%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/08%20Exponential%20and%20Logarithmic%20Functions/08.01%20Modeling%20with%20Exponential%20Equations%20and%20Expressions/08.01%20Modeling%20with%20Exponential%20Equations%20and%20Expressions%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/08%20Exponential%20and%20Logarithmic%20Functions/08.01%20Modeling%20with%20Exponential%20Equations%20and%20Expressions/08.01%20Modeling%20with%20Exponential%20Equations%20and%20Expressions%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "08.02",
+          "title": "08.02 Exponential Equations and Graphs",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/08%20Exponential%20and%20Logarithmic%20Functions/08.02%20Exponential%20Equations%20and%20Graphs/08.02%20Exponential%20Equations%20and%20Graphs.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/08%20Exponential%20and%20Logarithmic%20Functions/08.02%20Exponential%20Equations%20and%20Graphs/08.02%20Exponential%20Equations%20and%20Graphs%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/08%20Exponential%20and%20Logarithmic%20Functions/08.02%20Exponential%20Equations%20and%20Graphs/08.02%20Exponential%20Equations%20and%20Graphs%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/08%20Exponential%20and%20Logarithmic%20Functions/08.02%20Exponential%20Equations%20and%20Graphs/08.02%20Exponential%20Equations%20and%20Graphs%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "08.03",
+          "title": "08.03 Inverses",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/08%20Exponential%20and%20Logarithmic%20Functions/08.03%20Inverses/08.03%20Inverses.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/08%20Exponential%20and%20Logarithmic%20Functions/08.03%20Inverses/08.03%20Inverses%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/08%20Exponential%20and%20Logarithmic%20Functions/08.03%20Inverses/08.03%20Inverses%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/08%20Exponential%20and%20Logarithmic%20Functions/08.03%20Inverses/08.03%20Inverses%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "08.04",
+          "title": "08.04 Logarithms",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/08%20Exponential%20and%20Logarithmic%20Functions/08.04%20Logarithms/08.04%20Logarithms.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/08%20Exponential%20and%20Logarithmic%20Functions/08.04%20Logarithms/08.04%20Logarithms%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/08%20Exponential%20and%20Logarithmic%20Functions/08.04%20Logarithms/08.04%20Logarithms%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/08%20Exponential%20and%20Logarithmic%20Functions/08.04%20Logarithms/08.04%20Logarithms%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "08.05",
+          "title": "08.05 Properties of Logarithms",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/08%20Exponential%20and%20Logarithmic%20Functions/08.05%20Properties%20of%20Logarithms/08.05%20Properties%20of%20Logarithms.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/08%20Exponential%20and%20Logarithmic%20Functions/08.05%20Properties%20of%20Logarithms/08.05%20Properties%20of%20Logarithms%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/08%20Exponential%20and%20Logarithmic%20Functions/08.05%20Properties%20of%20Logarithms/08.05%20Properties%20of%20Logarithms%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/08%20Exponential%20and%20Logarithmic%20Functions/08.05%20Properties%20of%20Logarithms/08.05%20Properties%20of%20Logarithms%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "08.06",
+          "title": "08.06 Using Logarithms to Solve Exponential Equations",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/08%20Exponential%20and%20Logarithmic%20Functions/08.06%20Using%20Logarithms%20to%20Solve%20Exponential%20Equations/08.06%20Using%20Logarithms%20to%20Solve%20Exponential%20Equations.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/08%20Exponential%20and%20Logarithmic%20Functions/08.06%20Using%20Logarithms%20to%20Solve%20Exponential%20Equations/08.06%20Using%20Logarithms%20to%20Solve%20Exponential%20Equations%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/08%20Exponential%20and%20Logarithmic%20Functions/08.06%20Using%20Logarithms%20to%20Solve%20Exponential%20Equations/08.06%20Using%20Logarithms%20to%20Solve%20Exponential%20Equations%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/08%20Exponential%20and%20Logarithmic%20Functions/08.06%20Using%20Logarithms%20to%20Solve%20Exponential%20Equations/08.06%20Using%20Logarithms%20to%20Solve%20Exponential%20Equations%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "08.07",
+          "title": "08.07 Applications: Logarithms",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/08%20Exponential%20and%20Logarithmic%20Functions/08.07%20Applications%3A%20Logarithms/08.07%20Applications%3A%20Logarithms.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/08%20Exponential%20and%20Logarithmic%20Functions/08.07%20Applications%3A%20Logarithms/08.07%20Applications%3A%20Logarithms%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/08%20Exponential%20and%20Logarithmic%20Functions/08.07%20Applications%3A%20Logarithms/08.07%20Applications%3A%20Logarithms%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/08%20Exponential%20and%20Logarithmic%20Functions/08.07%20Applications%3A%20Logarithms/08.07%20Applications%3A%20Logarithms%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "08.08",
+          "title": "08.08 Graphing Logarithmic Functions",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/08%20Exponential%20and%20Logarithmic%20Functions/08.08%20Graphing%20Logarithmic%20Functions/08.08%20Graphing%20Logarithmic%20Functions.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/08%20Exponential%20and%20Logarithmic%20Functions/08.08%20Graphing%20Logarithmic%20Functions/08.08%20Graphing%20Logarithmic%20Functions%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/08%20Exponential%20and%20Logarithmic%20Functions/08.08%20Graphing%20Logarithmic%20Functions/08.08%20Graphing%20Logarithmic%20Functions%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/08%20Exponential%20and%20Logarithmic%20Functions/08.08%20Graphing%20Logarithmic%20Functions/08.08%20Graphing%20Logarithmic%20Functions%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "title": "09 Radians and Trigonometric Functions",
+      "sections": [
+        {
+          "id": "09.01",
+          "title": "09.01 Right Triangle Trigonometry",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/09%20Radians%20and%20Trigonometric%20Functions/09.01%20Right%20Triangle%20Trigonometry/09.01%20Right%20Triangle%20Trigonometry.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/09%20Radians%20and%20Trigonometric%20Functions/09.01%20Right%20Triangle%20Trigonometry/09.01%20Right%20Triangle%20Trigonometry%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/09%20Radians%20and%20Trigonometric%20Functions/09.01%20Right%20Triangle%20Trigonometry/09.01%20Right%20Triangle%20Trigonometry%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/09%20Radians%20and%20Trigonometric%20Functions/09.01%20Right%20Triangle%20Trigonometry/09.01%20Right%20Triangle%20Trigonometry%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "09.02",
+          "title": "09.02 Radians and Degrees",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/09%20Radians%20and%20Trigonometric%20Functions/09.02%20Radians%20and%20Degrees/09.02%20Radians%20and%20Degrees.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/09%20Radians%20and%20Trigonometric%20Functions/09.02%20Radians%20and%20Degrees/09.02%20Radians%20and%20Degrees%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/09%20Radians%20and%20Trigonometric%20Functions/09.02%20Radians%20and%20Degrees/09.02%20Radians%20and%20Degrees%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/09%20Radians%20and%20Trigonometric%20Functions/09.02%20Radians%20and%20Degrees/09.02%20Radians%20and%20Degrees%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "09.03",
+          "title": "09.03 Angles in Standard Position",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/09%20Radians%20and%20Trigonometric%20Functions/09.03%20Angles%20in%20Standard%20Position/09.03%20Angles%20in%20Standard%20Position.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/09%20Radians%20and%20Trigonometric%20Functions/09.03%20Angles%20in%20Standard%20Position/09.03%20Angles%20in%20Standard%20Position%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/09%20Radians%20and%20Trigonometric%20Functions/09.03%20Angles%20in%20Standard%20Position/09.03%20Angles%20in%20Standard%20Position%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/09%20Radians%20and%20Trigonometric%20Functions/09.03%20Angles%20in%20Standard%20Position/09.03%20Angles%20in%20Standard%20Position%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "09.04",
+          "title": "09.04 The Unit Circle",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/09%20Radians%20and%20Trigonometric%20Functions/09.04%20The%20Unit%20Circle/09.04%20The%20Unit%20Circle.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/09%20Radians%20and%20Trigonometric%20Functions/09.04%20The%20Unit%20Circle/09.04%20The%20Unit%20Circle%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/09%20Radians%20and%20Trigonometric%20Functions/09.04%20The%20Unit%20Circle/09.04%20The%20Unit%20Circle%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/09%20Radians%20and%20Trigonometric%20Functions/09.04%20The%20Unit%20Circle/09.04%20The%20Unit%20Circle%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "09.05",
+          "title": "09.05 Trigonometric Identities",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/09%20Radians%20and%20Trigonometric%20Functions/09.05%20Trigonometric%20Identities/09.05%20Trigonometric%20Identities.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/09%20Radians%20and%20Trigonometric%20Functions/09.05%20Trigonometric%20Identities/09.05%20Trigonometric%20Identities%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/09%20Radians%20and%20Trigonometric%20Functions/09.05%20Trigonometric%20Identities/09.05%20Trigonometric%20Identities%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/09%20Radians%20and%20Trigonometric%20Functions/09.05%20Trigonometric%20Identities/09.05%20Trigonometric%20Identities%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "09.06",
+          "title": "09.06 Trigonometric Functions of Any Angle",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/09%20Radians%20and%20Trigonometric%20Functions/09.06%20Trigonometric%20Functions%20of%20Any%20Angle/09.06%20Trigonometric%20Functions%20of%20Any%20Angle.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/09%20Radians%20and%20Trigonometric%20Functions/09.06%20Trigonometric%20Functions%20of%20Any%20Angle/09.06%20Trigonometric%20Functions%20of%20Any%20Angle%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/09%20Radians%20and%20Trigonometric%20Functions/09.06%20Trigonometric%20Functions%20of%20Any%20Angle/09.06%20Trigonometric%20Functions%20of%20Any%20Angle%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/09%20Radians%20and%20Trigonometric%20Functions/09.06%20Trigonometric%20Functions%20of%20Any%20Angle/09.06%20Trigonometric%20Functions%20of%20Any%20Angle%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "09.07",
+          "title": "09.07 Inverse Trigonometric Functions",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/09%20Radians%20and%20Trigonometric%20Functions/09.07%20Inverse%20Trigonometric%20Functions/09.07%20Inverse%20Trigonometric%20Functions.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/09%20Radians%20and%20Trigonometric%20Functions/09.07%20Inverse%20Trigonometric%20Functions/09.07%20Inverse%20Trigonometric%20Functions%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/09%20Radians%20and%20Trigonometric%20Functions/09.07%20Inverse%20Trigonometric%20Functions/09.07%20Inverse%20Trigonometric%20Functions%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/09%20Radians%20and%20Trigonometric%20Functions/09.07%20Inverse%20Trigonometric%20Functions/09.07%20Inverse%20Trigonometric%20Functions%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "09.08",
+          "title": "09.08 Solving Trigonometric Equations",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/09%20Radians%20and%20Trigonometric%20Functions/09.08%20Solving%20Trigonometric%20Equations/09.08%20Solving%20Trigonometric%20Equations.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/09%20Radians%20and%20Trigonometric%20Functions/09.08%20Solving%20Trigonometric%20Equations/09.08%20Solving%20Trigonometric%20Equations%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/09%20Radians%20and%20Trigonometric%20Functions/09.08%20Solving%20Trigonometric%20Equations/09.08%20Solving%20Trigonometric%20Equations%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/09%20Radians%20and%20Trigonometric%20Functions/09.08%20Solving%20Trigonometric%20Equations/09.08%20Solving%20Trigonometric%20Equations%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "10 Graphs of Sinusoidal Functions",
+      "sections": [
+        {
+          "id": "10.01",
+          "title": "10.01 Sinusoidal Graphs",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/10%20Graphs%20of%20Sinusoidal%20Functions/10.01%20Sinusoidal%20Graphs/10.01%20Sinusoidal%20Graphs.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/10%20Graphs%20of%20Sinusoidal%20Functions/10.01%20Sinusoidal%20Graphs/10.01%20Sinusoidal%20Graphs%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/10%20Graphs%20of%20Sinusoidal%20Functions/10.01%20Sinusoidal%20Graphs/10.01%20Sinusoidal%20Graphs%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/10%20Graphs%20of%20Sinusoidal%20Functions/10.01%20Sinusoidal%20Graphs/10.01%20Sinusoidal%20Graphs%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "10.02",
+          "title": "10.02 Sinusoidal Graphs: Amplitude",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/10%20Graphs%20of%20Sinusoidal%20Functions/10.02%20Sinusoidal%20Graphs%3A%20Amplitude/10.02%20Sinusoidal%20Graphs%3A%20Amplitude.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/10%20Graphs%20of%20Sinusoidal%20Functions/10.02%20Sinusoidal%20Graphs%3A%20Amplitude/10.02%20Sinusoidal%20Graphs%3A%20Amplitude%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/10%20Graphs%20of%20Sinusoidal%20Functions/10.02%20Sinusoidal%20Graphs%3A%20Amplitude/10.02%20Sinusoidal%20Graphs%3A%20Amplitude%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/10%20Graphs%20of%20Sinusoidal%20Functions/10.02%20Sinusoidal%20Graphs%3A%20Amplitude/10.02%20Sinusoidal%20Graphs%3A%20Amplitude%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "10.03",
+          "title": "10.03 Sinusoidal Graphs: Period",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/10%20Graphs%20of%20Sinusoidal%20Functions/10.03%20Sinusoidal%20Graphs%3A%20Period/10.03%20Sinusoidal%20Graphs%3A%20Period.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/10%20Graphs%20of%20Sinusoidal%20Functions/10.03%20Sinusoidal%20Graphs%3A%20Period/10.03%20Sinusoidal%20Graphs%3A%20Period%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/10%20Graphs%20of%20Sinusoidal%20Functions/10.03%20Sinusoidal%20Graphs%3A%20Period/10.03%20Sinusoidal%20Graphs%3A%20Period%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/10%20Graphs%20of%20Sinusoidal%20Functions/10.03%20Sinusoidal%20Graphs%3A%20Period/10.03%20Sinusoidal%20Graphs%3A%20Period%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "10.04",
+          "title": "10.04 Sinusoidal Graphs: Vertical Shift",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/10%20Graphs%20of%20Sinusoidal%20Functions/10.04%20Sinusoidal%20Graphs%3A%20Vertical%20Shift/10.04%20Sinusoidal%20Graphs%3A%20Vertical%20Shift.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/10%20Graphs%20of%20Sinusoidal%20Functions/10.04%20Sinusoidal%20Graphs%3A%20Vertical%20Shift/10.04%20Sinusoidal%20Graphs%3A%20Vertical%20Shift%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/10%20Graphs%20of%20Sinusoidal%20Functions/10.04%20Sinusoidal%20Graphs%3A%20Vertical%20Shift/10.04%20Sinusoidal%20Graphs%3A%20Vertical%20Shift%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/10%20Graphs%20of%20Sinusoidal%20Functions/10.04%20Sinusoidal%20Graphs%3A%20Vertical%20Shift/10.04%20Sinusoidal%20Graphs%3A%20Vertical%20Shift%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "10.05",
+          "title": "10.05 Sinusoidal Family of Functions",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/10%20Graphs%20of%20Sinusoidal%20Functions/10.05%20Sinusoidal%20Family%20of%20Functions/10.05%20Sinusoidal%20Family%20of%20Functions.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/10%20Graphs%20of%20Sinusoidal%20Functions/10.05%20Sinusoidal%20Family%20of%20Functions/10.05%20Sinusoidal%20Family%20of%20Functions%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/10%20Graphs%20of%20Sinusoidal%20Functions/10.05%20Sinusoidal%20Family%20of%20Functions/10.05%20Sinusoidal%20Family%20of%20Functions%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/10%20Graphs%20of%20Sinusoidal%20Functions/10.05%20Sinusoidal%20Family%20of%20Functions/10.05%20Sinusoidal%20Family%20of%20Functions%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "10.06",
+          "title": "10.06 Creating Trigonometric Models",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/10%20Graphs%20of%20Sinusoidal%20Functions/10.06%20Creating%20Trigonometric%20Models/10.06%20Creating%20Trigonometric%20Models.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/10%20Graphs%20of%20Sinusoidal%20Functions/10.06%20Creating%20Trigonometric%20Models/10.06%20Creating%20Trigonometric%20Models%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/10%20Graphs%20of%20Sinusoidal%20Functions/10.06%20Creating%20Trigonometric%20Models/10.06%20Creating%20Trigonometric%20Models%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/10%20Graphs%20of%20Sinusoidal%20Functions/10.06%20Creating%20Trigonometric%20Models/10.06%20Creating%20Trigonometric%20Models%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "10.07",
+          "title": "10.07 Interpreting Trigonometric Models",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/10%20Graphs%20of%20Sinusoidal%20Functions/10.07%20Interpreting%20Trigonometric%20Models/10.07%20Interpreting%20Trigonometric%20Models.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/10%20Graphs%20of%20Sinusoidal%20Functions/10.07%20Interpreting%20Trigonometric%20Models/10.07%20Interpreting%20Trigonometric%20Models%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/10%20Graphs%20of%20Sinusoidal%20Functions/10.07%20Interpreting%20Trigonometric%20Models/10.07%20Interpreting%20Trigonometric%20Models%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/10%20Graphs%20of%20Sinusoidal%20Functions/10.07%20Interpreting%20Trigonometric%20Models/10.07%20Interpreting%20Trigonometric%20Models%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "10.08",
+          "title": "10.08 Properties of Sinusoidal Graphs",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/10%20Graphs%20of%20Sinusoidal%20Functions/10.08%20Properties%20of%20Sinusoidal%20Graphs/10.08%20Properties%20of%20Sinusoidal%20Graphs.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/10%20Graphs%20of%20Sinusoidal%20Functions/10.08%20Properties%20of%20Sinusoidal%20Graphs/10.08%20Properties%20of%20Sinusoidal%20Graphs%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/10%20Graphs%20of%20Sinusoidal%20Functions/10.08%20Properties%20of%20Sinusoidal%20Graphs/10.08%20Properties%20of%20Sinusoidal%20Graphs%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/10%20Graphs%20of%20Sinusoidal%20Functions/10.08%20Properties%20of%20Sinusoidal%20Graphs/10.08%20Properties%20of%20Sinusoidal%20Graphs%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "10.09",
+          "title": "10.09 Periodic Functions",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/10%20Graphs%20of%20Sinusoidal%20Functions/10.09%20Periodic%20Functions/10.09%20Periodic%20Functions.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/10%20Graphs%20of%20Sinusoidal%20Functions/10.09%20Periodic%20Functions/10.09%20Periodic%20Functions%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/10%20Graphs%20of%20Sinusoidal%20Functions/10.09%20Periodic%20Functions/10.09%20Periodic%20Functions%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/10%20Graphs%20of%20Sinusoidal%20Functions/10.09%20Periodic%20Functions/10.09%20Periodic%20Functions%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "11 More Function Types",
+      "sections": [
+        {
+          "id": "11.01",
+          "title": "11.01 Graphing Quadratic Functions",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/11%20More%20Function%20Types/11.01%20Graphing%20Quadratic%20Functions/11.01%20Graphing%20Quadratic%20Functions.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/11%20More%20Function%20Types/11.01%20Graphing%20Quadratic%20Functions/11.01%20Graphing%20Quadratic%20Functions%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/11%20More%20Function%20Types/11.01%20Graphing%20Quadratic%20Functions/11.01%20Graphing%20Quadratic%20Functions%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/11%20More%20Function%20Types/11.01%20Graphing%20Quadratic%20Functions/11.01%20Graphing%20Quadratic%20Functions%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "11.02",
+          "title": "11.02 Absolute Value Functions",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/11%20More%20Function%20Types/11.02%20Absolute%20Value%20Functions/11.02%20Absolute%20Value%20Functions.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/11%20More%20Function%20Types/11.02%20Absolute%20Value%20Functions/11.02%20Absolute%20Value%20Functions%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/11%20More%20Function%20Types/11.02%20Absolute%20Value%20Functions/11.02%20Absolute%20Value%20Functions%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/11%20More%20Function%20Types/11.02%20Absolute%20Value%20Functions/11.02%20Absolute%20Value%20Functions%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "11.03",
+          "title": "11.03 Reciprocal Power Functions",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/11%20More%20Function%20Types/11.03%20Reciprocal%20Power%20Functions/11.03%20Reciprocal%20Power%20Functions.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/11%20More%20Function%20Types/11.03%20Reciprocal%20Power%20Functions/11.03%20Reciprocal%20Power%20Functions%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/11%20More%20Function%20Types/11.03%20Reciprocal%20Power%20Functions/11.03%20Reciprocal%20Power%20Functions%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/11%20More%20Function%20Types/11.03%20Reciprocal%20Power%20Functions/11.03%20Reciprocal%20Power%20Functions%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "11.04",
+          "title": "11.04 Graphing Rational Functions",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/11%20More%20Function%20Types/11.04%20Graphing%20Rational%20Functions/11.04%20Graphing%20Rational%20Functions.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/11%20More%20Function%20Types/11.04%20Graphing%20Rational%20Functions/11.04%20Graphing%20Rational%20Functions%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/11%20More%20Function%20Types/11.04%20Graphing%20Rational%20Functions/11.04%20Graphing%20Rational%20Functions%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/11%20More%20Function%20Types/11.04%20Graphing%20Rational%20Functions/11.04%20Graphing%20Rational%20Functions%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "11.05",
+          "title": "11.05 Graphing Radical Functions",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/11%20More%20Function%20Types/11.05%20Graphing%20Radical%20Functions/11.05%20Graphing%20Radical%20Functions.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/11%20More%20Function%20Types/11.05%20Graphing%20Radical%20Functions/11.05%20Graphing%20Radical%20Functions%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/11%20More%20Function%20Types/11.05%20Graphing%20Radical%20Functions/11.05%20Graphing%20Radical%20Functions%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/11%20More%20Function%20Types/11.05%20Graphing%20Radical%20Functions/11.05%20Graphing%20Radical%20Functions%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "11.06",
+          "title": "11.06 Piecewise Functions",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/11%20More%20Function%20Types/11.06%20Piecewise%20Functions/11.06%20Piecewise%20Functions.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/11%20More%20Function%20Types/11.06%20Piecewise%20Functions/11.06%20Piecewise%20Functions%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/11%20More%20Function%20Types/11.06%20Piecewise%20Functions/11.06%20Piecewise%20Functions%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/11%20More%20Function%20Types/11.06%20Piecewise%20Functions/11.06%20Piecewise%20Functions%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "11.07",
+          "title": "11.07 Step Functions",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/11%20More%20Function%20Types/11.07%20Step%20Functions/11.07%20Step%20Functions.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/11%20More%20Function%20Types/11.07%20Step%20Functions/11.07%20Step%20Functions%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/11%20More%20Function%20Types/11.07%20Step%20Functions/11.07%20Step%20Functions%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/11%20More%20Function%20Types/11.07%20Step%20Functions/11.07%20Step%20Functions%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "11.08",
+          "title": "11.08 Logistic Growth",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/11%20More%20Function%20Types/11.08%20Logistic%20Growth/11.08%20Logistic%20Growth.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/11%20More%20Function%20Types/11.08%20Logistic%20Growth/11.08%20Logistic%20Growth%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/11%20More%20Function%20Types/11.08%20Logistic%20Growth/11.08%20Logistic%20Growth%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/11%20More%20Function%20Types/11.08%20Logistic%20Growth/11.08%20Logistic%20Growth%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "12 Using Function Models",
+      "sections": [
+        {
+          "id": "12.01",
+          "title": "12.01 Linear-Quadratic Systems",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/12%20Using%20Function%20Models/12.01%20Linear-Quadratic%20Systems/12.01%20Linear-Quadratic%20Systems.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/12%20Using%20Function%20Models/12.01%20Linear-Quadratic%20Systems/12.01%20Linear-Quadratic%20Systems%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/12%20Using%20Function%20Models/12.01%20Linear-Quadratic%20Systems/12.01%20Linear-Quadratic%20Systems%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/12%20Using%20Function%20Models/12.01%20Linear-Quadratic%20Systems/12.01%20Linear-Quadratic%20Systems%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "12.02",
+          "title": "12.02 Intersections of Graphs",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/12%20Using%20Function%20Models/12.02%20Intersections%20of%20Graphs/12.02%20Intersections%20of%20Graphs.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/12%20Using%20Function%20Models/12.02%20Intersections%20of%20Graphs/12.02%20Intersections%20of%20Graphs%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/12%20Using%20Function%20Models/12.02%20Intersections%20of%20Graphs/12.02%20Intersections%20of%20Graphs%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/12%20Using%20Function%20Models/12.02%20Intersections%20of%20Graphs/12.02%20Intersections%20of%20Graphs%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "12.03",
+          "title": "12.03 Working with Function Models",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/12%20Using%20Function%20Models/12.03%20Working%20with%20Function%20Models/12.03%20Working%20with%20Function%20Models.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/12%20Using%20Function%20Models/12.03%20Working%20with%20Function%20Models/12.03%20Working%20with%20Function%20Models%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/12%20Using%20Function%20Models/12.03%20Working%20with%20Function%20Models/12.03%20Working%20with%20Function%20Models%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/12%20Using%20Function%20Models/12.03%20Working%20with%20Function%20Models/12.03%20Working%20with%20Function%20Models%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "12.04",
+          "title": "12.04 Thinking About Domain and Range",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/12%20Using%20Function%20Models/12.04%20Thinking%20About%20Domain%20and%20Range/12.04%20Thinking%20About%20Domain%20and%20Range.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/12%20Using%20Function%20Models/12.04%20Thinking%20About%20Domain%20and%20Range/12.04%20Thinking%20About%20Domain%20and%20Range%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/12%20Using%20Function%20Models/12.04%20Thinking%20About%20Domain%20and%20Range/12.04%20Thinking%20About%20Domain%20and%20Range%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/12%20Using%20Function%20Models/12.04%20Thinking%20About%20Domain%20and%20Range/12.04%20Thinking%20About%20Domain%20and%20Range%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "12.05",
+          "title": "12.05 Comparing Models",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/12%20Using%20Function%20Models/12.05%20Comparing%20Models/12.05%20Comparing%20Models.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/12%20Using%20Function%20Models/12.05%20Comparing%20Models/12.05%20Comparing%20Models%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/12%20Using%20Function%20Models/12.05%20Comparing%20Models/12.05%20Comparing%20Models%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/12%20Using%20Function%20Models/12.05%20Comparing%20Models/12.05%20Comparing%20Models%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "12.06",
+          "title": "12.06 Average Rate of Change",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/12%20Using%20Function%20Models/12.06%20Average%20Rate%20of%20Change/12.06%20Average%20Rate%20of%20Change.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/12%20Using%20Function%20Models/12.06%20Average%20Rate%20of%20Change/12.06%20Average%20Rate%20of%20Change%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/12%20Using%20Function%20Models/12.06%20Average%20Rate%20of%20Change/12.06%20Average%20Rate%20of%20Change%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/12%20Using%20Function%20Models/12.06%20Average%20Rate%20of%20Change/12.06%20Average%20Rate%20of%20Change%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "12.07",
+          "title": "12.07 Combining Function Types",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/12%20Using%20Function%20Models/12.07%20Combining%20Function%20Types/12.07%20Combining%20Function%20Types.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/12%20Using%20Function%20Models/12.07%20Combining%20Function%20Types/12.07%20Combining%20Function%20Types%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/12%20Using%20Function%20Models/12.07%20Combining%20Function%20Types/12.07%20Combining%20Function%20Types%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/12%20Using%20Function%20Models/12.07%20Combining%20Function%20Types/12.07%20Combining%20Function%20Types%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "13 Sequences and Series",
+      "sections": [
+        {
+          "id": "13.01",
+          "title": "13.01 Arithmetic Sequences",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/13%20Sequences%20and%20Series/13.01%20Arithmetic%20Sequences/13.01%20Arithmetic%20Sequences.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/13%20Sequences%20and%20Series/13.01%20Arithmetic%20Sequences/13.01%20Arithmetic%20Sequences%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/13%20Sequences%20and%20Series/13.01%20Arithmetic%20Sequences/13.01%20Arithmetic%20Sequences%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/13%20Sequences%20and%20Series/13.01%20Arithmetic%20Sequences/13.01%20Arithmetic%20Sequences%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "13.02",
+          "title": "13.02 Geometric Sequences",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/13%20Sequences%20and%20Series/13.02%20Geometric%20Sequences/13.02%20Geometric%20Sequences.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/13%20Sequences%20and%20Series/13.02%20Geometric%20Sequences/13.02%20Geometric%20Sequences%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/13%20Sequences%20and%20Series/13.02%20Geometric%20Sequences/13.02%20Geometric%20Sequences%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/13%20Sequences%20and%20Series/13.02%20Geometric%20Sequences/13.02%20Geometric%20Sequences%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "13.03",
+          "title": "13.03 Applications: Sequences",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/13%20Sequences%20and%20Series/13.03%20Applications%3A%20Sequences/13.03%20Applications%3A%20Sequences.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/13%20Sequences%20and%20Series/13.03%20Applications%3A%20Sequences/13.03%20Applications%3A%20Sequences%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/13%20Sequences%20and%20Series/13.03%20Applications%3A%20Sequences/13.03%20Applications%3A%20Sequences%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/13%20Sequences%20and%20Series/13.03%20Applications%3A%20Sequences/13.03%20Applications%3A%20Sequences%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "13.04",
+          "title": "13.04 Series and Sigma Notation",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/13%20Sequences%20and%20Series/13.04%20Series%20and%20Sigma%20Notation/13.04%20Series%20and%20Sigma%20Notation.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/13%20Sequences%20and%20Series/13.04%20Series%20and%20Sigma%20Notation/13.04%20Series%20and%20Sigma%20Notation%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/13%20Sequences%20and%20Series/13.04%20Series%20and%20Sigma%20Notation/13.04%20Series%20and%20Sigma%20Notation%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/13%20Sequences%20and%20Series/13.04%20Series%20and%20Sigma%20Notation/13.04%20Series%20and%20Sigma%20Notation%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "13.05",
+          "title": "13.05 Arithmetic Series",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/13%20Sequences%20and%20Series/13.05%20Arithmetic%20Series/13.05%20Arithmetic%20Series.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/13%20Sequences%20and%20Series/13.05%20Arithmetic%20Series/13.05%20Arithmetic%20Series%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/13%20Sequences%20and%20Series/13.05%20Arithmetic%20Series/13.05%20Arithmetic%20Series%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/13%20Sequences%20and%20Series/13.05%20Arithmetic%20Series/13.05%20Arithmetic%20Series%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "13.06",
+          "title": "13.06 Geometric Series",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/13%20Sequences%20and%20Series/13.06%20Geometric%20Series/13.06%20Geometric%20Series.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/13%20Sequences%20and%20Series/13.06%20Geometric%20Series/13.06%20Geometric%20Series%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/13%20Sequences%20and%20Series/13.06%20Geometric%20Series/13.06%20Geometric%20Series%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/13%20Sequences%20and%20Series/13.06%20Geometric%20Series/13.06%20Geometric%20Series%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "13.07",
+          "title": "13.07 Applications: Series",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/13%20Sequences%20and%20Series/13.07%20Applications%3A%20Series/13.07%20Applications%3A%20Series.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/13%20Sequences%20and%20Series/13.07%20Applications%3A%20Series/13.07%20Applications%3A%20Series%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/13%20Sequences%20and%20Series/13.07%20Applications%3A%20Series/13.07%20Applications%3A%20Series%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/13%20Sequences%20and%20Series/13.07%20Applications%3A%20Series/13.07%20Applications%3A%20Series%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "14 Appendices",
+      "sections": [
+        {
+          "id": "14.01",
+          "title": "14.01 Pronunciation Guide",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/14%20Appendices/14.01%20Pronunciation%20Guide/14.01%20Pronunciation%20Guide.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/14%20Appendices/14.01%20Pronunciation%20Guide/14.01%20Pronunciation%20Guide%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/14%20Appendices/14.01%20Pronunciation%20Guide/14.01%20Pronunciation%20Guide%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/14%20Appendices/14.01%20Pronunciation%20Guide/14.01%20Pronunciation%20Guide%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "14.02",
+          "title": "14.02 Glossary",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/14%20Appendices/14.02%20Glossary/14.02%20Glossary.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/14%20Appendices/14.02%20Glossary/14.02%20Glossary%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/14%20Appendices/14.02%20Glossary/14.02%20Glossary%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/14%20Appendices/14.02%20Glossary/14.02%20Glossary%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "14.03",
+          "title": "14.03 Symbols",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/14%20Appendices/14.03%20Symbols/14.03%20Symbols.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/14%20Appendices/14.03%20Symbols/14.03%20Symbols%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/14%20Appendices/14.03%20Symbols/14.03%20Symbols%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/14%20Appendices/14.03%20Symbols/14.03%20Symbols%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "14.04",
+          "title": "14.04 Properties",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/14%20Appendices/14.04%20Properties/14.04%20Properties.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/14%20Appendices/14.04%20Properties/14.04%20Properties%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/14%20Appendices/14.04%20Properties/14.04%20Properties%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/14%20Appendices/14.04%20Properties/14.04%20Properties%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "14.05",
+          "title": "14.05 Formulary",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/14%20Appendices/14.05%20Formulary/14.05%20Formulary.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/14%20Appendices/14.05%20Formulary/14.05%20Formulary%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/14%20Appendices/14.05%20Formulary/14.05%20Formulary%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/14%20Appendices/14.05%20Formulary/14.05%20Formulary%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "14.06",
+          "title": "14.06 Postulates and Theorems",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/14%20Appendices/14.06%20Postulates%20and%20Theorems/14.06%20Postulates%20and%20Theorems.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/14%20Appendices/14.06%20Postulates%20and%20Theorems/14.06%20Postulates%20and%20Theorems%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/14%20Appendices/14.06%20Postulates%20and%20Theorems/14.06%20Postulates%20and%20Theorems%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/14%20Appendices/14.06%20Postulates%20and%20Theorems/14.06%20Postulates%20and%20Theorems%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "14.07",
+          "title": "14.07 Illustrations Credits",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/14%20Appendices/14.07%20Illustrations%20Credits/14.07%20Illustrations%20Credits.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/14%20Appendices/14.07%20Illustrations%20Credits/14.07%20Illustrations%20Credits%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/14%20Appendices/14.07%20Illustrations%20Credits/14.07%20Illustrations%20Credits%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/14%20Appendices/14.07%20Illustrations%20Credits/14.07%20Illustrations%20Credits%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "14.08",
+          "title": "14.08 Data Sources",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/14%20Appendices/14.08%20Data%20Sources/14.08%20Data%20Sources.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/14%20Appendices/14.08%20Data%20Sources/14.08%20Data%20Sources%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/14%20Appendices/14.08%20Data%20Sources/14.08%20Data%20Sources%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/14%20Appendices/14.08%20Data%20Sources/14.08%20Data%20Sources%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "14.09",
+          "title": "14.09 Table of z-Scores for Normal Distribution",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/14%20Appendices/14.09%20Table%20of%20z-Scores%20for%20Normal%20Distribution/14.09%20Table%20of%20z-Scores%20for%20Normal%20Distribution.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/14%20Appendices/14.09%20Table%20of%20z-Scores%20for%20Normal%20Distribution/14.09%20Table%20of%20z-Scores%20for%20Normal%20Distribution%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/14%20Appendices/14.09%20Table%20of%20z-Scores%20for%20Normal%20Distribution/14.09%20Table%20of%20z-Scores%20for%20Normal%20Distribution%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/14%20Appendices/14.09%20Table%20of%20z-Scores%20for%20Normal%20Distribution/14.09%20Table%20of%20z-Scores%20for%20Normal%20Distribution%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        },
+        {
+          "id": "14.10",
+          "title": "14.10 Table of Random Digits",
+          "documents": [
+            {
+              "kind": "chapter",
+              "label": "Chapter",
+              "url": "pdfs/14%20Appendices/14.10%20Table%20of%20Random%20Digits/14.10%20Table%20of%20Random%20Digits.pdf"
+            },
+            {
+              "kind": "study",
+              "label": "Study",
+              "url": "pdfs/14%20Appendices/14.10%20Table%20of%20Random%20Digits/14.10%20Table%20of%20Random%20Digits%20-%20Study%20Guide.pdf"
+            },
+            {
+              "kind": "common",
+              "label": "Common",
+              "url": "pdfs/14%20Appendices/14.10%20Table%20of%20Random%20Digits/14.10%20Table%20of%20Random%20Digits%20-%20Common%20Problems.pdf"
+            },
+            {
+              "kind": "practice",
+              "label": "Practice",
+              "url": "pdfs/14%20Appendices/14.10%20Table%20of%20Random%20Digits/14.10%20Table%20of%20Random%20Digits%20-%20Practice%20Problems.pdf"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

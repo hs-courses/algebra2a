@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Algebra 2 A Reference Guide</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <button class="menu-button" id="menuButton" aria-label="Toggle navigation">☰</button>
+      <div class="brand-mark"><span>A<sup>2</sup></span></div>
+      <div>
+        <div class="brand-title">Algebra 2 A</div>
+        <div class="brand-subtitle">Reference Guide</div>
+      </div>
+      <label class="search-wrap" for="search">
+        <span>⌕</span>
+        <input id="search" type="search" placeholder="Search chapters and sections">
+      </label>
+    </header>
+
+    <div class="app-shell">
+      <aside class="sidebar" id="sidebar">
+        <div class="sidebar-heading">Contents</div>
+        <nav id="catalog" aria-label="Chapters and sections"></nav>
+      </aside>
+      <div class="resize-handle" id="resizeHandle" role="separator" aria-label="Resize contents pane" aria-orientation="vertical" aria-valuemin="230" aria-valuemax="520" aria-valuenow="315" tabindex="0"></div>
+
+      <main class="workspace">
+        <div class="empty-state" id="emptyState">
+          <div class="empty-icon">∑</div>
+          <h1>Select a section</h1>
+          <p>Choose a subsection from the contents to view its chapter, study guide, common problems, or practice problems.</p>
+        </div>
+
+        <section class="document-view" id="documentView" hidden>
+          <div class="crumbs" id="crumbs"></div>
+          <div class="document-heading">
+            <div>
+              <h1 id="sectionTitle"></h1>
+              <p id="sectionMeta"></p>
+            </div>
+            <a class="print-button" id="printButton" target="_blank" rel="noopener">Open / Print PDF ↗</a>
+          </div>
+          <div class="document-tabs" id="documentTabs" role="tablist"></div>
+          <div class="viewer-frame">
+            <iframe id="pdfViewer" title="PDF viewer"></iframe>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
