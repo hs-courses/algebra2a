@@ -89,6 +89,7 @@ body {
   background: var(--paper);
 }
 .sidebar > * { direction: ltr; }
+.sidebar-backdrop { display: none; }
 .resize-handle {
   position: relative;
   z-index: 2;
@@ -189,6 +190,14 @@ body.resizing iframe { pointer-events: none; }
 .practice-card { padding: 30px 34px; border: 1px solid #d9c08d; border-radius: 8px; background: #fffdf8; box-shadow: 0 5px 18px rgba(32, 57, 86, .08); }
 .practice-kicker { color: #9a5416; font: 700 12px Arial, sans-serif; letter-spacing: .08em; text-transform: uppercase; }
 .practice-card h2 { margin: 22px 0 12px; color: var(--purple); font-size: clamp(26px, 4vw, 40px); font-weight: 700; }
+.math-content { font-family: "STIX Two Math", "Cambria Math", "Latin Modern Math", "DejaVu Serif", Georgia, serif; font-variant-numeric: lining-nums; }
+.math-content sup { display: inline-block; margin-left: .04em; font-size: .56em; line-height: 1; vertical-align: .95em; }
+.math-radical { display: inline-flex; align-items: flex-start; margin-right: .04em; }
+.math-radicand { display: inline-block; margin-left: .04em; padding: 0 .08em; border-top: 1px solid currentColor; line-height: 1.05; }
+.math-fraction { display: inline-flex; flex-direction: column; vertical-align: -.35em; margin: 0 .08em; text-align: center; font-size: .9em; line-height: 1.05; }
+.math-content sup .math-fraction { font-size: 1em; vertical-align: baseline; }
+.math-fraction span:first-child { padding: 0 .16em .08em; border-bottom: 1px solid currentColor; }
+.math-fraction span:last-child { padding: .08em .16em 0; }
 .practice-guide { margin: 0 0 18px; color: var(--blue-dark); font: 13px/1.5 Arial, sans-serif; }
 .practice-guide summary { cursor: pointer; font-weight: 700; }
 .practice-guide p { margin: 9px 0 4px; color: var(--muted); }
@@ -221,6 +230,7 @@ body.resizing iframe { pointer-events: none; }
 .text-button:hover { text-decoration: underline; }
 .next-button { margin-left: auto; }
 .answer-feedback { min-height: 24px; margin-top: 22px; color: var(--muted); font: 700 14px/1.5 Arial, sans-serif; }
+.answer-feedback.math-content { font-size: 16px; line-height: 1.8; }
 .answer-feedback.correct { color: #217346; }
 .answer-feedback.incorrect { color: #a13b32; }
 .answer-feedback.almost { color: #8b5b18; }
@@ -250,18 +260,58 @@ body.resizing iframe { pointer-events: none; }
 .viewer-frame iframe { width: 100%; height: 100%; border: 0; }
 
 @media (max-width: 760px) {
-  .topbar { padding: 0 14px; }
-  .menu-button { display: block; padding: 7px; border: 0; color: white; background: transparent; font-size: 21px; cursor: pointer; }
-  .brand-title { font-size: 17px; }
-  .search-wrap { max-width: 190px; }
-  .sidebar { position: fixed; z-index: 5; top: 68px; bottom: 0; left: 0; transform: translateX(-100%); transition: transform .2s ease; box-shadow: 5px 0 18px rgba(0,0,0,.15); }
+  .topbar { min-height: 68px; height: auto; gap: 8px; padding: 8px 12px; }
+  .menu-button { display: grid; flex: 0 0 38px; place-items: center; width: 38px; height: 42px; padding: 0; border: 0; color: white; background: transparent; font-size: 21px; cursor: pointer; }
+  .topbar .brand-home { min-width: 0; gap: 8px; }
+  .brand-mark { flex: 0 0 38px; width: 38px; height: 38px; }
+  .brand-title { overflow: hidden; font-size: 17px; text-overflow: ellipsis; white-space: nowrap; }
+  .brand-subtitle { font-size: 11px; }
+  .search-wrap { flex: 0 1 150px; min-width: 40px; max-width: 150px; height: 42px; padding: 0 9px; }
+  .search-wrap input { min-width: 0; font-size: 13px; }
+  .sidebar { position: fixed; z-index: 6; top: 68px; bottom: 0; left: 0; width: min(315px, 86vw); transform: translateX(-100%); transition: transform .2s ease; box-shadow: 5px 0 18px rgba(0,0,0,.15); }
   .resize-handle { display: none; }
   .sidebar.open { transform: translateX(0); }
-  .workspace { padding: 20px 14px; }
-  .document-heading { align-items: start; flex-direction: column; }
-  .viewer-frame { height: calc(100vh - 280px); min-height: 450px; }
-  .practice-card { padding: 24px 20px; }
+  .sidebar.open + .sidebar-backdrop { display: block; position: fixed; z-index: 5; inset: 68px 0 0; width: auto; border: 0; background: rgba(20, 35, 50, .34); cursor: pointer; }
+  .workspace { padding: 18px 12px 28px; }
+  .crumbs { font-size: 11px; line-height: 1.45; }
+  .document-heading { align-items: stretch; flex-direction: column; gap: 10px; margin: 9px 0 14px; }
+  .document-heading h1 { font-size: clamp(27px, 8vw, 34px); line-height: 1.08; }
+  .document-heading p { line-height: 1.35; }
+  .print-button { align-self: flex-start; padding: 9px 12px; }
+  .document-tabs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 5px; margin-bottom: 8px; }
+  .doc-tab { min-width: 0; min-height: 46px; padding: 8px 4px; border-radius: 5px 5px 0 0; font-size: 12px; }
+  .interactive-view { margin: 16px 0; }
+  .practice-card { padding: 20px 16px; border-radius: 9px; }
+  .practice-kicker { font-size: 11px; line-height: 1.4; }
+  .practice-card h2 { margin: 17px 0 12px; font-size: clamp(28px, 8vw, 36px); line-height: 1.12; }
+  .practice-guide { font-size: 13px; }
+  .practice-instruction { font-size: 14px; }
+  .answer-form { margin-top: 21px; }
   .answer-row { flex-direction: column; }
-  .next-button { margin-left: 0; }
-  .calculator { width: min(300px, 100%); }
+  .answer-row input { min-height: 52px; font-size: 19px; }
+  .answer-row button { min-height: 48px; }
+  .editing-actions button { min-height: 42px; padding-inline: 14px; }
+  .number-palette { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 6px; }
+  .number-palette button { width: auto; min-height: 42px; }
+  .math-palette { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; }
+  .math-palette button { min-height: 42px; }
+  .practice-actions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 14px; margin-top: 16px; }
+  .text-button { min-height: 40px; padding: 8px 0; }
+  .next-button { grid-column: 1 / -1; margin-left: 0; min-height: 46px; }
+  .answer-feedback { margin-top: 17px; }
+  .calculator-wrap { margin-top: 18px; }
+  .calculator-toggle { min-height: 42px; }
+  .calculator { width: 100%; padding: 12px; }
+  .calculator-grid { gap: 6px; }
+  .calculator-grid button { min-height: 48px; }
+  .viewer-frame { height: calc(100vh - 300px); min-height: 430px; border-radius: 5px; }
+}
+
+@media (max-width: 360px) {
+  .topbar { padding-inline: 8px; }
+  .brand-title { font-size: 15px; }
+  .brand-subtitle { font-size: 10px; }
+  .search-wrap { flex-basis: 116px; }
+  .search-wrap input::placeholder { color: transparent; }
+  .document-tabs { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }

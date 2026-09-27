@@ -14,6 +14,7 @@ const interactiveEl = document.querySelector('#interactiveView');
 const viewerFrameEl = document.querySelector('.viewer-frame');
 const appShellEl = document.querySelector('.app-shell');
 const sidebarEl = document.querySelector('#sidebar');
+const sidebarBackdropEl = document.querySelector('#sidebarBackdrop');
 const resizeHandleEl = document.querySelector('#resizeHandle');
 const SIDEBAR_WIDTH_KEY = 'algebra2a-sidebar-width';
 
@@ -29,6 +30,23 @@ function normaliseAnswer(value) {
 
 function escapeHtml(value) {
   return String(value).replace(/[&<>"']/g, character => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[character]));
+}
+
+// Interactive content uses a deliberately small, text-friendly notation in the
+// problem bank. Render that notation at the display boundary so authors can use
+// 16^(3/4), sqrt(x), and x^2 without putting HTML in the data files.
+function mathMarkup(value, inExponent = false) {
+  let markup = escapeHtml(value);
+  const renderInner = text => mathMarkup(text, inExponent);
+  const exponentMarkup = [];
+  const holdExponent = exponent => `\uE000${exponentMarkup.push(mathMarkup(exponent, true)) - 1}\uE001`;
+  markup = markup.replace(/\s*=\s*/g, '&thinsp;=&thinsp;');
+  markup = markup.replace(/(?:√|sqrt)\(([^()]*)\)/gi, (_, radicand) => `<span class="math-radical">√<span class="math-radicand">${renderInner(radicand)}</span></span>`);
+  markup = markup.replace(/\^\(([^()]*)\)/g, (_, exponent) => holdExponent(exponent));
+  markup = markup.replace(/\^([A-Za-z0-9]+)/g, (_, exponent) => holdExponent(exponent));
+  if (!inExponent) markup = markup.replace(/([A-Za-z0-9)]+)\/([A-Za-z0-9(]+)/g, (_, numerator, denominator) => `<span class="math-fraction"><span>${numerator}</span><span>${denominator}</span></span>`);
+  markup = markup.replace(/\uE000(\d+)\uE001/g, (_, index) => `<sup>${exponentMarkup[index]}</sup>`);
+  return markup;
 }
 
 function toMathExpression(value) {
@@ -197,9 +215,9 @@ function renderInteractive(section) {
   interactiveEl.innerHTML = `
     <div class="practice-card">
       <div class="practice-kicker">Interactive practice · ${state.interactiveIndex + 1} of ${problems.length} · ${escapeHtml(problem.typeTitle || 'Practice')}</div>
-      <h2>${escapeHtml(problem.prompt)}</h2>
-      <details class="practice-guide"><summary>How to recognize and solve this type</summary><p>${escapeHtml(problem.recognize || '')}</p><ul>${(problem.rules || []).map(rule => `<li>${escapeHtml(rule)}</li>`).join('')}</ul></details>
-      <p class="practice-instruction">${escapeHtml(problem.inputHint || 'Use the math keypad or keyboard to enter your answer.')}</p>
+      <h2 class="math-content">${mathMarkup(problem.prompt)}</h2>
+      <details class="practice-guide"><summary>How to recognize and solve this type</summary><p class="math-content">${mathMarkup(problem.recognize || '')}</p><ul>${(problem.rules || []).map(rule => `<li class="math-content">${mathMarkup(rule)}</li>`).join('')}</ul></details>
+      <p class="practice-instruction math-content">${mathMarkup(problem.inputHint || 'Use the math keypad or keyboard to enter your answer.')}</p>
       <form class="answer-form" id="answerForm">
         <label for="answerInput">Your answer</label>
         <div class="answer-row"><input id="answerInput" autocomplete="off" spellcheck="false" aria-describedby="answerFeedback"><button type="submit">Check</button></div>
@@ -213,19 +231,19 @@ function renderInteractive(section) {
           <button type="button" data-token="/">÷</button>
           <button type="button" data-token="*">×</button>
           <button type="button" data-token="√">√</button>
-          <button type="button" data-token="sqrt()" data-cursor="5">sqrt( )</button>
+          <button type="button" data-token="sqrt()" data-cursor="5" aria-label="Square root">√( )</button>
           <button type="button" data-token="^()" data-cursor="2">xⁿ</button>
           <button type="button" data-token="(">(</button>
           <button type="button" data-token=")">)</button>
           <button type="button" data-token="[">[</button>
           <button type="button" data-token="]">]</button>
           <button type="button" data-token="|">|</button>
-          <button type="button" data-token="()/()" data-cursor="1">a/b</button>
+          <button type="button" data-token="()/()" data-cursor="1" aria-label="Fraction">a⁄b</button>
           <button type="button" data-token="π">π</button>
         </div>
       </form>
       <div class="practice-actions"><button class="text-button" id="hintButton" type="button">Show hint</button><button class="text-button" id="solutionButton" type="button">Show solution</button><button class="text-button" id="restartButton" type="button">Restart practice</button><button class="next-button" id="nextButton" type="button" hidden>Next problem →</button></div>
-      <div class="answer-feedback" id="answerFeedback" role="status"></div>
+      <div class="answer-feedback math-content" id="answerFeedback" role="status"></div>
       <div class="calculator-wrap"><button class="calculator-toggle" id="calculatorToggle" type="button" aria-expanded="false">Calculator</button>
         <div class="calculator" id="calculator" hidden>
           <input class="calculator-display" id="calculatorDisplay" value="0" readonly aria-label="Calculator display">
@@ -254,11 +272,11 @@ function renderInteractive(section) {
     const equivalent = problem.equivalentAnswers?.map(normaliseAnswer).includes(answer)
       || problem.answers.some(expected => mathematicallyEquivalent(answerInput.value, expected));
     feedback.className = `answer-feedback ${correct ? 'correct' : equivalent ? 'almost' : 'incorrect'}`;
-    feedback.textContent = correct ? 'Correct! Nice work.' : equivalent ? (problem.equivalentMessage || 'Equivalent, but not in the expected simplified form.') : 'Not quite. Check your work and try again.';
+    feedback.innerHTML = mathMarkup(correct ? 'Correct! Nice work.' : equivalent ? (problem.equivalentMessage || 'Equivalent, but not in the expected simplified form.') : 'Not quite. Check your work and try again.');
     if (correct) interactiveEl.querySelector('#nextButton').hidden = false;
   });
-  interactiveEl.querySelector('#hintButton').addEventListener('click', () => { feedback.className = 'answer-feedback hint'; feedback.textContent = `Hint: ${problem.hint}`; });
-  interactiveEl.querySelector('#solutionButton').addEventListener('click', () => { feedback.className = 'answer-feedback solution'; feedback.textContent = `Solution: ${problem.solution}`; });
+  interactiveEl.querySelector('#hintButton').addEventListener('click', () => { feedback.className = 'answer-feedback hint math-content'; feedback.innerHTML = mathMarkup(`Hint: ${problem.hint}`); });
+  interactiveEl.querySelector('#solutionButton').addEventListener('click', () => { feedback.className = 'answer-feedback solution math-content'; feedback.innerHTML = mathMarkup(`Solution: ${problem.solution}`); });
   interactiveEl.querySelector('#restartButton').addEventListener('click', () => { state.interactiveIndex = 0; renderInteractive(section); });
   interactiveEl.querySelector('#nextButton').addEventListener('click', () => { state.interactiveIndex = (state.interactiveIndex + 1) % problems.length; renderInteractive(section); });
   initCalculator(interactiveEl);
@@ -328,7 +346,19 @@ async function init() {
 }
 
 searchEl.addEventListener('input', event => renderCatalog(event.target.value));
-document.querySelector('#menuButton').addEventListener('click', () => document.querySelector('.sidebar').classList.toggle('open'));
+const menuButtonEl = document.querySelector('#menuButton');
+const setSidebarOpen = open => {
+  sidebarEl.classList.toggle('open', open);
+  menuButtonEl.setAttribute('aria-expanded', String(open));
+  document.body.classList.toggle('sidebar-open', open);
+};
+menuButtonEl.setAttribute('aria-expanded', 'false');
+menuButtonEl.addEventListener('click', () => setSidebarOpen(!sidebarEl.classList.contains('open')));
+sidebarBackdropEl.addEventListener('click', () => setSidebarOpen(false));
+catalogEl.addEventListener('click', event => {
+  if (event.target.closest('a, button')) setSidebarOpen(false);
+});
+window.addEventListener('resize', () => { if (window.innerWidth > 760) setSidebarOpen(false); });
 window.addEventListener('hashchange', restoreHash);
 window.addEventListener('popstate', restoreHash);
 init().catch(error => {
